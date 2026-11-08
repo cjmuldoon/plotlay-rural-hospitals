@@ -1,0 +1,21 @@
+closure,name,town,ended,what,reopened_year,beds_when_open,subtype,placed_by
+370174,USPHS Clinton Indian Hospital,Clinton,2007-01-12,Closed,,20,short-term,zip centre
+370060,Pawnee Municipal Hospital,Pawnee,2007-08-31,Closed,,40,short-term,census geocoder
+370200,Seminole Medical Center,Seminole,2007-09-30,"Closed, later reopened",2008,32,short-term,census geocoder
+370232,Muskogee Community Hospital,Muskogee,2012-07-01,Closed,,45,short-term,census geocoder
+370051,Memorial Hospital & Physician Group,Frederick,2016-03-31,Closed,,37,short-term,census geocoder
+370169,Epic Medical Center,Eufaula,2016-05-24,Closed,,33,short-term,zip centre
+370065,Craig General Hospital,Vinita,2016-12-04,"Closed, later reopened",2017,62,short-term,census geocoder
+370103,Sayre Community Hospital,Sayre,2017-03-08,"Closed, later reopened",2018,46,short-term,zip centre
+370239,Sayre Community Hospital,Sayre,2018-08-20,Closed,,31,short-term,zip centre
+370072,Latimer County General Hospital,Wilburton,2018-11-11,Closed,,33,short-term,census geocoder
+370156,Pauls Valley Hospital Authority,Pauls Valley,2018-11-18,"Closed, later reopened",2021,64,short-term,census geocoder
+370011,Mercy Hospital El Reno,El Reno,2019-05-01,Closed,,54,short-term,census geocoder
+370029,AllianceHealth Clinton,Clinton,2022-12-31,"Closed, later reopened",2024,66,short-term,census geocoder
+370139,Stillwater Medical - Perry,Perry,2023-03-31,Became a Rural Emergency Hospital,,26,short-term,census geocoder
+370030,Stillwater Medical-blackwell,Blackwell,2023-06-30,Became a Rural Emergency Hospital,,25,short-term,census geocoder
+371324,Harper County Community Hospital,Buffalo,2023-09-30,Became a Rural Emergency Hospital,,25,critical access,census geocoder
+370153,Elkview General Hospital,Hobart,2024-06-30,Became a Rural Emergency Hospital,,38,short-term,census geocoder
+370173,Claremore Indian Hospital,Claremore,2025-09-30,Closed,,60,short-term,census geocoder
+370178,Memorial Hospital,Stilwell,2026-03-04,Became a Rural Emergency Hospital,,67,short-term,census geocoder
+371305,Ascension St. John Nowata,Nowata,2026-07-31,Became a Rural Emergency Hospital,,25,critical access,census geocoder

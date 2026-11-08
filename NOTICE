@@ -1,0 +1,69 @@
+If Oklahoma's weakest rural hospitals closed: drive times and beds, a scenario
+Copyright 2026 Craig Muldoon. Made with Plotlay (https://www.getplotlay.com).
+
+This repository contains code, data we made, and data from the sources below.
+
+CODE
+  The notebook and the Power BI project (its Power Query, DAX and report files) are licensed under the MIT licence
+  (LICENSE).
+
+DATA WE MADE
+  The tables in data/tables/ (the risk rule's inputs and results, the closures history, each block group's drive times,
+  each county's roll-up, the scenario's beds), the shapes in data/geometry/ and the visuals are licensed under Creative
+  Commons Attribution 4.0 International (LICENSE-DATA). Please credit: "Rural hospital closures in Oklahoma: Plotlay
+  (getplotlay.com), from CMS, HHS and U.S. Census Bureau data". They are made from the sources below.
+
+UPSTREAM SOURCES
+  All are works of the United States Government, public domain in the United States (17 U.S.C. 105).
+
+  Centers for Medicare & Medicaid Services: Hospital Provider Cost Report (the HCRIS public use file), fiscal years
+  2019 to 2024, data.cms.gov.
+  https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report
+  Changes: total margin (Net Income / (Net Patient Revenue + Total Other Income)), patient margin and Medicaid share
+  of charges worked out by us; a Medicaid share above 100% treated as a reporting error (blank).
+
+  Centers for Medicare & Medicaid Services: Provider of Services File, Hospital and Non-Hospital Facilities
+  (Quality Improvement and Evaluation System), third quarter 2026, data.cms.gov.
+  https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-quality-improvement-and-evaluation-system
+  Changes: rural short-term and critical access hospitals whose Medicare agreement ended since 1 January 2005,
+  classed by us by what the file shows at the same address or town afterwards (continued, closed, closed and later
+  reopened, became a Rural Emergency Hospital).
+
+  U.S. Department of Health and Human Services: COVID-19 Reported Patient Impact and Hospital Capacity by Facility,
+  dataset anag-cw7u, healthdata.gov, weeks of 30 April 2023 to 27 April 2024 (the last year of reporting), for
+  Oklahoma, Texas, Kansas, Arkansas, Missouri, Colorado and New Mexico.
+  https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u
+  Changes: each hospital's mean inpatient beds and beds in use over the weeks it reported; suppressed small counts
+  (-999999) left out, never read as zero; its geocoded address used as its place.
+
+  U.S. Census Bureau: American Community Survey 2020-2024 5-year estimates, table B01003 (total population), block
+  groups; 2020 Census centers of population by block group (CenPop2020); cartographic boundary files 2024 (block
+  groups, counties, states, 1:500,000); TIGER/Line 2024 roads; the 2024 ZCTA gazetteer; the Census Geocoder.
+  Changes: drive times worked out by us with Plotlay's drive-time engine over the roads (speeds by road class stated
+  in the README); outlines simplified.
+
+  U.S. Department of Agriculture, Economic Research Service: 2020 Rural-Urban Commuting Area Codes (ZIP codes and
+  census tracts). Used to tell rural from urban.
+
+  Public Law 119-21 (H.R. 1, approved 4 July 2025), text from the U.S. Government Publishing Office (govinfo.gov),
+  quoted in the README.
+
+  Base map in the Plotlay project and the app screenshots
+    USGS The National Map: US Topo (public domain).
+
+CITED, NOT REPUBLISHED
+  The Cecil G. Sheps Center for Health Services Research, University of North Carolina at Chapel Hill, keeps a list of
+  rural hospital closures (https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/).
+  Its data is not licensed for republishing, so none of it is in this repository: the README compares our counts with
+  its published totals only.
+
+NOT INCLUDED
+  No patient-level data: every value is per hospital, per block group or per county. Patients moved in the scenario
+  are average patients a day, not people. The live drive-time run near McAlester in the Plotlay project used
+  OpenStreetMap roads (ODbL); nothing in data/ is derived from OpenStreetMap. No imagery was traced, and no Google,
+  Nearmap, Esri or Mapbox imagery was used. Nothing here implies endorsement by CMS, HHS, the Census Bureau, the
+  Sheps Center or any hospital.
+
+THIRD-PARTY SOFTWARE
+  The notebook uses pandas, GeoPandas, Shapely, pyproj and Matplotlib (installed from requirements.txt, each under its
+  own licence). Fonts in the visuals: IBM Plex Sans and IBM Plex Sans Condensed, SIL Open Font License 1.1.

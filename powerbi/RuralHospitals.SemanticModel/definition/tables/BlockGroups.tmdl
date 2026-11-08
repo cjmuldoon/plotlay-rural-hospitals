@@ -1,0 +1,160 @@
+table BlockGroups
+	lineageTag: 5f4c6192-3515-eaab-1fd7-c2c9ef41b0a7
+
+	/// Residents, ACS 2020-24 5-year estimates
+	measure People = SUM ( BlockGroups[population] )
+		formatString: #,0
+		lineageTag: 999fe085-6c2a-9265-2886-e88941749083
+
+	/// Minutes to the nearest hospital, weighted by people
+	measure 'Average drive today' = DIVIDE ( SUMX ( BlockGroups, BlockGroups[population] * BlockGroups[minutes_today] ), [People] )
+		formatString: 0.0
+		lineageTag: a8ef1edf-ab3c-09c4-b0f7-19973b3e6096
+
+	measure 'Average drive if they closed' = DIVIDE ( SUMX ( BlockGroups, BlockGroups[population] * BlockGroups[minutes_scenario] ), [People] )
+		formatString: 0.0
+		lineageTag: 6bb1fcba-478d-7797-3a14-0a4119932a46
+
+	measure 'Over 30 min today' = CALCULATE ( [People], BlockGroups[minutes_today] > 30 )
+		formatString: #,0
+		lineageTag: 6d994483-0149-66f0-7ad2-2b6703cfa513
+
+	measure 'Over 30 min if they closed' = CALCULATE ( [People], BlockGroups[minutes_scenario] > 30 )
+		formatString: #,0
+		lineageTag: bbfef976-6b8d-76ae-b10d-da1953fe5ea8
+
+	measure 'Over 45 min if they closed' = CALCULATE ( [People], BlockGroups[minutes_scenario] > 45 )
+		formatString: #,0
+		lineageTag: d1382ebe-cd42-e84d-3821-2c7dd378a818
+
+	/// People whose drive would grow by more than half a minute
+	measure 'Driving longer' = CALCULATE ( [People], BlockGroups[minutes_added] > 0.5 )
+		formatString: #,0
+		lineageTag: 83b735da-b5c0-3439-1f63-4b3095bce34e
+
+	column geoid
+		dataType: string
+		lineageTag: 8e3ee845-a62a-ea34-b202-cdb2b4badeb4
+		summarizeBy: none
+		sourceColumn: geoid
+
+		annotation SummarizationSetBy = Automatic
+
+	column population
+		dataType: int64
+		formatString: #,0
+		lineageTag: 3976bbb5-e415-b6ac-f5f2-e72a2ab385b1
+		summarizeBy: none
+		sourceColumn: population
+
+		annotation SummarizationSetBy = Automatic
+
+	column rural
+		dataType: string
+		lineageTag: 61c879f9-7376-6a9a-8d8c-84454d5228e8
+		summarizeBy: none
+		sourceColumn: rural
+
+		annotation SummarizationSetBy = Automatic
+
+	column minutes_today
+		dataType: double
+		formatString: 0.0
+		lineageTag: ab9ef829-cba7-6f3d-a492-3348177f584b
+		summarizeBy: none
+		sourceColumn: minutes_today
+
+		annotation SummarizationSetBy = Automatic
+
+	column minutes_scenario
+		dataType: double
+		formatString: 0.0
+		lineageTag: c0488f56-0a4c-c120-2509-bb373f1fbeed
+		summarizeBy: none
+		sourceColumn: minutes_scenario
+
+		annotation SummarizationSetBy = Automatic
+
+	column minutes_added
+		dataType: double
+		formatString: 0.0
+		lineageTag: 91194326-cee2-7725-fc05-25c2b528fcd6
+		summarizeBy: none
+		sourceColumn: minutes_added
+
+		annotation SummarizationSetBy = Automatic
+
+	column band_today
+		dataType: string
+		lineageTag: ab74b742-9101-6dcb-8390-8bd61b2e32d4
+		summarizeBy: none
+		sourceColumn: band_today
+		sortByColumn: band_today_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column band_scenario
+		dataType: string
+		lineageTag: 8a9c4424-acaf-b3d7-fee7-0f1edc8d4eae
+		summarizeBy: none
+		sourceColumn: band_scenario
+		sortByColumn: band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column change
+		dataType: string
+		lineageTag: 430319ef-1c04-11f0-ee88-7c191bbd1c0c
+		summarizeBy: none
+		sourceColumn: change
+
+		annotation SummarizationSetBy = Automatic
+
+	column nearest_today
+		dataType: string
+		lineageTag: 8b906e1c-7279-bc19-eb08-ec0620140dc5
+		summarizeBy: none
+		sourceColumn: nearest_today
+
+		annotation SummarizationSetBy = Automatic
+
+	column nearest_scenario
+		dataType: string
+		lineageTag: 7c669fa3-add3-ba81-638d-04760b9fc874
+		summarizeBy: none
+		sourceColumn: nearest_scenario
+
+		annotation SummarizationSetBy = Automatic
+
+	column band_order
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d6ab3b9-b335-4338-9b48-f241d6fba840
+		summarizeBy: none
+		sourceColumn: band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column band_today_order
+		dataType: int64
+		formatString: 0
+		lineageTag: b3fba77d-b399-168f-24a7-68d1e97b45e7
+		summarizeBy: none
+		sourceColumn: band_today_order
+
+		annotation SummarizationSetBy = Automatic
+
+	partition BlockGroups = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("tables/blockgroups.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"geoid", "population", "rural", "minutes_today", "minutes_scenario", "minutes_added", "band_today", "band_scenario", "change", "nearest_today", "nearest_scenario"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"geoid", type text}, {"population", Int64.Type}, {"rural", type text}, {"minutes_today", type number}, {"minutes_scenario", type number}, {"minutes_added", type number}, {"band_today", type text}, {"band_scenario", type text}, {"change", type text}, {"nearest_today", type text}, {"nearest_scenario", type text}}, "en-US"),
+				    Ordered = Table.AddColumn(Typed, "band_order", each List.PositionOf({"00 to 15 min", "15 to 30 min", "30 to 45 min", "45 to 60 min", "60 min or more"}, [band_scenario]), Int64.Type),
+				    Ordered2 = Table.AddColumn(Ordered, "band_today_order", each List.PositionOf({"00 to 15 min", "15 to 30 min", "30 to 45 min", "45 to 60 min", "60 min or more"}, [band_today]), Int64.Type)
+				in
+				    Ordered2
+
+	annotation PBI_ResultType = Table

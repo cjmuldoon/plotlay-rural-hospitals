@@ -1,0 +1,294 @@
+ccn,name,town,state,type,rural,in_scenario,beds,patients,beds_source,occupancy_today,added_patients,occupancy_scenario,added_patients_b,occupancy_scenario_b,loss_years,medicaid_share,margin_2021,margin_2022,margin_2023,margin_2024
+040001,Siloam Springs Regional Hospital,Siloam Springs,AR,Short-term,Rural,Stays open,30.5,15.3,hhs,50.3,0.0,50.3,2.9,59.7,1.0,11.0,17.5,11.3,4.5,-5.8
+040002,Johnson Regional Medical Center,Clarksville,AR,Short-term,Rural,Stays open,122.0,49.3,hhs,40.4,0.0,40.4,0.0,40.4,2.0,14.8,11.0,0.3,-8.8,-10.6
+040004,Washington Regional Medical Center,Fayetteville,AR,Short-term,Urban,Stays open,308.0,264.0,hhs,85.7,0.0,85.7,0.0,85.7,,,14.0,-2.1,13.2,11.5
+040010,Mercy Hospital Northwest Arkansas,Rogers,AR,Short-term,Urban,Stays open,196.5,183.3,hhs,93.3,0.0,93.3,0.0,93.3,,,25.1,8.6,9.2,8.0
+040011,Chambers Memorial Hospital,Danville,AR,Short-term,Rural,Stays open,41.0,20.8,hhs,50.7,0.0,50.7,0.0,50.7,2.0,9.2,10.1,-3.6,1.8,-5.1
+040018,Baptist Health - Van Buren,Van Buren,AR,Short-term,Urban,Stays open,74.0,2.1,hcris,2.9,0.0,2.9,0.0,2.9,,,32.2,-30.2,-17.1,-34.4
+040022,Freeman Health System - Springdale,Springdale,AR,Short-term,Urban,Stays open,111.2,73.0,hhs,65.7,0.0,65.7,0.0,65.7,,,13.0,3.6,7.0,2.6
+040026,Chi St Vincent Hospital Hot Springs,Hot Springs,AR,Short-term,Urban,Stays open,206.2,176.7,hhs,85.7,0.0,85.7,0.0,85.7,,,8.4,2.3,2.2,3.9
+040055,Baptist Health - Fort Smith,Fort Smith,AR,Short-term,Urban,Stays open,198.0,184.8,hhs,93.3,16.4,101.6,26.6,106.8,,,-4.8,-8.0,2.5,-10.8
+040062,Mercy Hospital Fort Smith,Fort Smith,AR,Short-term,Urban,Stays open,225.0,224.4,hhs,99.7,0.0,99.7,0.0,99.7,,,15.1,15.6,17.8,14.9
+040076,Baptist Health Medical Center-hot Springs County,Malvern,AR,Short-term,Rural,Stays open,26.0,16.3,hhs,62.8,0.0,62.8,0.0,62.8,0.0,20.9,11.0,4.1,1.7,9.2
+040078,National Park Medical Center,Hot Springs,AR,Short-term,Urban,Tribal or IHS (not a destination here),158.4,113.0,hhs,71.3,0.0,71.3,0.0,71.3,,,-0.3,3.2,-0.9,-5.6
+041300,Mercy Hospital Paris,Paris,AR,Critical access,Rural,Stays open,11.4,7.0,hhs,61.1,0.0,61.1,0.0,61.1,1.0,15.7,11.1,2.8,4.5,-4.9
+041302,Dardanelle Regional Medical Center,Dardanelle,AR,Critical access,Rural,Stays open,21.0,14.8,hhs,70.5,0.0,70.5,0.0,70.5,2.0,8.1,3.1,-4.3,-0.5,0.5
+041303,Mercy Hospital Ozark,Ozark,AR,Critical access,Rural,Stays open,14.8,7.0,hhs,47.2,0.0,47.2,0.0,47.2,1.0,16.5,19.5,19.3,8.1,-11.4
+041305,Mercy Hospital Waldron,Waldron,AR,Critical access,Rural,Stays open,16.7,5.5,hhs,32.7,1.8,43.5,0.0,32.7,1.0,18.9,13.5,0.7,-5.3,12.8
+041311,Howard Memorial Hospital,Nashville,AR,Critical access,Rural,Stays open,20.0,9.2,hhs,45.9,0.0,45.9,0.0,45.9,1.0,11.2,14.4,1.3,-2.1,1.5
+041318,Mercy Hospital Booneville,Booneville,AR,Critical access,Rural,Stays open,19.9,6.7,hhs,33.8,0.0,33.8,0.0,33.8,2.0,18.0,12.0,2.9,-2.6,-4.6
+041320,Little River Memorial Hospital,Ashdown,AR,Critical access,Rural,Stays open,25.0,2.2,hcris,8.8,0.0,8.8,0.0,8.8,3.0,8.5,2.5,-10.5,-11.2,-6.8
+041321,Baptist Health Medical Center-arkadelphia,Arkadelphia,AR,Critical access,Rural,Stays open,20.0,7.2,hhs,36.0,0.0,36.0,0.0,36.0,1.0,15.3,7.4,4.6,-0.5,7.6
+041329,Mercy Hospital Berryville,Berryville,AR,Critical access,Rural,Stays open,25.0,4.1,hcris,16.5,0.0,16.5,0.0,16.5,1.0,15.5,7.6,-4.6,3.1,6.2
+041331,Ozarks Community Hospital of Gravette,Gravette,AR,Critical access,Rural,Stays open,24.9,13.1,hhs,52.7,5.0,72.7,0.0,52.7,3.0,10.3,15.1,-9.0,-41.3,-3.8
+041333,Sevier County Medical Center,De Queen,AR,Critical access,Rural,Stays open,15.0,3.6,hcris,24.3,0.0,24.3,0.0,24.3,1.0,,,,-38.7,4.6
+041334,Mena Regional Health System,Mena,AR,Critical access,Rural,Stays open,45.0,,pos,,0.4,,0.0,,,,,,,
+041335,Southwest Arkansas Regional Medical Center LLC,Hope,AR,Critical access,Rural,Stays open,25.0,,pos,,0.0,,0.0,,,,,,,
+061311,Southeast Colorado Hospital,Springfield,CO,Critical access,Rural,Stays open,15.0,2.1,hcris,14.1,0.0,14.1,0.0,14.1,3.0,14.4,13.8,-7.0,-7.4,-5.7
+061321,Mt San Rafael Hospital,Trinidad,CO,Critical access,Rural,Stays open,14.0,6.5,hhs,46.4,0.0,46.4,0.0,46.4,2.0,24.9,-0.4,-0.1,3.1,3.5
+061323,Prowers Medical Center,Lamar,CO,Critical access,Rural,Stays open,14.0,6.5,hhs,46.7,0.0,46.7,0.0,46.7,2.0,33.3,23.0,0.9,-7.2,-1.3
+061336,Arkansas Valley Regional Medical Center,La Junta,CO,Critical access,Rural,Stays open,16.0,5.3,hhs,33.3,0.0,33.3,0.0,33.3,3.0,36.3,14.0,-3.4,-9.7,-4.0
+170006,"Mercy Hospital Pittsburg, Inc",Pittsburg,KS,Short-term,Rural,Stays open,96.0,40.1,hhs,41.7,0.0,41.7,0.0,41.7,2.0,14.6,0.1,-5.7,-17.8,2.7
+170017,Susan B Allen Memorial Hospital,El Dorado,KS,Short-term,Rural,Stays open,10.7,7.0,hhs,65.5,0.0,65.5,0.0,65.5,3.0,8.4,3.5,-15.7,-2.3,-0.1
+170020,Hutchinson Regional Medical Center Inc,Hutchinson,KS,Short-term,Rural,Stays open,78.8,70.5,hhs,89.5,0.0,89.5,0.0,89.5,4.0,10.6,-17.1,-11.3,-7.9,-3.7
+170023,St. Catherine Hospital - Garden City,Garden City,KS,Short-term,Rural,Stays open,96.0,30.2,hhs,31.5,0.0,31.5,0.0,31.5,3.0,9.6,3.3,-4.6,-0.7,-6.7
+170027,Pratt Regional Medical Center,Pratt,KS,Short-term,Rural,Stays open,35.0,9.1,hcris,26.0,0.0,26.0,0.0,26.0,3.0,6.7,1.8,-5.6,-5.0,-12.4
+170068,Southwest Medical Center,Liberal,KS,Short-term,Rural,Stays open,34.6,27.9,hhs,80.7,0.0,80.7,0.0,80.7,3.0,16.7,14.0,-20.8,-18.8,-7.6
+170120,Labette Health,Parsons,KS,Short-term,Rural,Stays open,47.0,21.0,hhs,44.8,0.0,44.8,0.0,44.8,1.0,12.0,11.6,2.2,-2.0,2.5
+170122,"Ascension Via Christi Hospitals Wichita, Inc.",Wichita,KS,Short-term,Urban,Stays open,1109.8,623.3,hhs,56.2,0.0,56.2,0.0,56.2,,,7.9,2.0,5.2,-2.1
+170123,Wesley Medical Center,Wichita,KS,Short-term,Urban,Stays open,686.0,420.0,hhs,61.2,0.0,61.2,0.0,61.2,,,24.1,24.8,34.1,39.1
+170175,St Catherine Hospital - Dodge City,Dodge City,KS,Short-term,Rural,Stays open,68.3,11.9,hhs,17.4,0.0,17.4,0.0,17.4,1.0,11.4,4.0,11.5,-6.6,2.6
+170197,Kansas Medical Center LLC,Andover,KS,Short-term,Urban,Stays open,58.0,23.5,hhs,40.5,0.0,40.5,0.0,40.5,,,7.2,13.9,6.3,-8.8
+170200,"Ascension Via Christi Hospital St. Teresa, Inc.",Wichita,KS,Short-term,Urban,Stays open,58.0,35.1,hhs,60.5,0.0,60.5,0.0,60.5,,,18.1,17.1,9.2,16.8
+171304,Ashland Health Center,Ashland,KS,Critical access,Rural,Stays open,25.0,13.4,hhs,53.7,0.0,53.7,0.0,53.7,2.0,3.8,25.5,2.5,-7.4,-6.0
+171308,Mercy Hospital Columbus,Columbus,KS,Critical access,Rural,Stays open,25.0,1.4,hcris,5.6,2.3,14.7,0.0,5.6,1.0,18.2,-5.5,7.9,3.3,23.0
+171312,Comanche County Hospital,Coldwater,KS,Critical access,Rural,Stays open,12.0,2.3,hcris,19.1,0.0,19.1,0.0,19.1,3.0,6.1,14.9,-4.5,-18.9,-10.4
+171313,Kearny County Hospital,Lakin,KS,Critical access,Rural,Stays open,18.9,7.1,hhs,37.3,0.0,37.3,0.0,37.3,0.0,24.3,5.2,3.6,6.8,12.5
+171317,Edwards County Medical Center,Kinsley,KS,Critical access,Rural,Stays open,12.0,5.1,hhs,42.2,0.0,42.2,0.0,42.2,3.0,5.0,24.2,-3.0,-12.9,-10.2
+171318,Sedan City Hospital,Sedan,KS,Critical access,Rural,Stays open,15.0,1.4,hcris,9.4,0.0,9.4,0.0,9.4,3.0,10.1,3.8,-2.5,-4.4,-6.1
+171321,Meade District Hospital,Meade,KS,Critical access,Rural,Stays open,20.0,1.0,hcris,5.1,0.0,5.1,0.0,5.1,2.0,9.7,-5.9,6.2,-5.4,2.6
+171322,Hamilton County Hospital,Syracuse,KS,Critical access,Rural,Stays open,25.0,14.3,hcris,57.2,0.0,57.2,0.0,57.2,1.0,17.8,0.9,-13.2,2.5,2.4
+171323,Stafford County Hospital,Stafford,KS,Critical access,Rural,Stays open,25.0,5.9,hcris,23.5,0.0,23.5,0.0,23.5,2.0,7.3,2.1,2.9,-2.5,-5.7
+171324,"Satanta District Hospital, Clinics, & Ltcu",Satanta,KS,Critical access,Rural,Stays open,20.7,8.9,hhs,42.9,0.0,42.9,0.0,42.9,3.0,4.4,16.9,-10.3,-6.6,-3.7
+171329,Caldwell Regional Medical Center,Caldwell,KS,Critical access,Rural,Stays open,25.0,6.6,hcris,26.5,0.0,26.5,0.0,26.5,3.0,7.2,5.8,-4.9,-13.7,-22.8
+171331,Kiowa District Hospital,Kiowa,KS,Critical access,Rural,Stays open,10.0,2.0,hcris,19.8,0.0,19.8,0.0,19.8,2.0,6.7,3.3,-9.5,-3.3,6.3
+171332,Kiowa County Memorial Hospital,Greensburg,KS,Critical access,Rural,Stays open,15.0,7.0,hhs,46.9,0.0,46.9,0.0,46.9,4.0,9.9,-3.7,-6.4,-4.2,-3.2
+171334,Medicine Lodge Memorial Hospital,Medicine Lodge,KS,Critical access,Rural,Stays open,25.0,16.0,hhs,64.0,0.0,64.0,0.0,64.0,1.0,4.2,7.8,7.3,-6.0,0.0
+171335,Stevens County Hospital,Hugoton,KS,Critical access,Rural,Stays open,17.0,1.9,hcris,11.2,0.0,11.2,0.0,11.2,3.0,4.4,0.3,-27.5,-14.2,-5.5
+171339,Greenwood County Hospital,Eureka,KS,Critical access,Rural,Stays open,17.0,6.3,hhs,37.3,0.0,37.3,0.0,37.3,1.0,7.2,29.7,6.7,-1.5,15.6
+171343,Stanton County Hospital,Johnson,KS,Critical access,Rural,Stays open,16.0,2.2,hcris,13.8,0.0,13.8,0.0,13.8,4.0,21.8,-4.0,-20.4,-11.3,-7.8
+171344,Wilson Medical Center,Neodesha,KS,Critical access,Rural,Stays open,15.0,5.7,hhs,38.0,0.0,38.0,0.0,38.0,3.0,9.6,8.0,-3.3,-6.6,-8.2
+171346,Patterson Health Center,Anthony,KS,Critical access,Rural,Stays open,16.0,6.0,hhs,37.2,0.0,37.2,0.0,37.2,3.0,8.2,4.2,-15.6,-13.2,-10.1
+171368,Minneola District Hospital Nbr 2,Minneola,KS,Critical access,Rural,Stays open,25.0,8.6,hcris,34.3,0.0,34.3,0.0,34.3,2.0,11.8,3.7,-6.7,-9.7,0.7
+171373,Allen County Regional Hospital,Iola,KS,Critical access,Rural,Stays open,14.6,6.5,hhs,44.7,0.0,44.7,0.0,44.7,3.0,11.1,2.8,-25.5,-10.4,-2.7
+171374,Fredonia Regional Hospital,Fredonia,KS,Critical access,Rural,Stays open,25.0,2.0,hcris,8.2,0.0,8.2,0.0,8.2,3.0,11.9,19.6,-2.4,-3.3,-2.5
+171376,Girard Medical Center,Girard,KS,Critical access,Rural,Stays open,25.0,3.2,hcris,12.8,0.0,12.8,0.0,12.8,2.0,10.1,8.8,-4.7,-5.2,1.6
+171378,Kingman Healthcare Center,Kingman,KS,Critical access,Rural,Stays open,25.0,3.3,hcris,13.3,0.0,13.3,0.0,13.3,0.0,5.0,2.8,2.2,3.4,3.8
+171380,Neosho Memorial Regional Medical Center,Chanute,KS,Critical access,Rural,Stays open,25.0,14.0,hhs,55.8,0.0,55.8,0.0,55.8,1.0,12.9,6.5,0.5,4.1,-8.0
+171383,William Newton Memorial Hospital,Winfield,KS,Critical access,Rural,Stays open,25.0,14.4,hhs,57.6,0.0,57.6,0.0,57.6,3.0,14.1,8.4,-10.7,-10.9,-1.5
+171386,Morton County Hospital,Elkhart,KS,Critical access,Rural,Stays open,25.0,2.9,hcris,11.6,0.0,11.6,0.0,11.6,0.0,4.1,,,13.4,15.1
+171388,Bob Wilson Memorial Hospital,Ulysses,KS,Critical access,Rural,Stays open,25.0,2.6,hcris,10.4,0.0,10.4,0.0,10.4,1.0,3.6,,,,-34.3
+190041,CHRISTUS Shreveport-bossier Health System,Shreveport,LA,Short-term,Urban,Stays open,199.0,125.2,hcris,62.9,0.0,62.9,0.0,62.9,,,-3.6,0.1,-1.5,3.6
+190098,Ochsner Lsu Health Shreveport,Shreveport,LA,Short-term,Urban,Stays open,243.0,207.2,hcris,85.2,0.0,85.2,0.0,85.2,,,5.2,6.2,0.9,1.0
+190111,"Willis Knighton Medical Center, Inc",Shreveport,LA,Short-term,Urban,Stays open,737.0,461.3,hcris,62.6,0.0,62.6,0.0,62.6,,,44.0,-15.8,32.5,40.7
+190278,Specialists Hospital Shreveport,Shreveport,LA,Short-term,Urban,Stays open,30.0,7.3,hcris,24.2,0.0,24.2,0.0,24.2,,,28.7,23.0,7.9,16.6
+190317,Ochsner Lsu Health Shreveport-st Mary Medical Cent,Shreveport,LA,Short-term,Urban,Stays open,109.0,62.5,hcris,57.4,0.0,57.4,0.0,57.4,,,-21.1,-28.6,5.9,6.6
+191304,North Caddo Medical Center,Vivian,LA,Critical access,Rural,Stays open,25.0,5.7,hcris,22.7,0.0,22.7,0.0,22.7,0.0,19.0,13.5,1.3,9.9,1.6
+260001,Mercy Hospital Joplin,Joplin,MO,Short-term,Urban,Stays open,186.7,176.4,hhs,94.5,7.5,98.5,11.5,100.6,,,9.3,6.2,6.8,8.2
+260040,Cox Medical Centers,Springfield,MO,Short-term,Urban,Stays open,640.3,594.1,hhs,92.8,0.0,92.8,0.0,92.8,,,12.5,-1.1,5.4,8.6
+260061,Nevada Regional Medical Center,Nevada,MO,Short-term,Rural,Stays open,21.2,21.2,hhs,100.0,0.0,100.0,0.0,100.0,3.0,24.5,1.5,-1.4,-1.3,-23.4
+260065,Mercy Hospital Springfield,Springfield,MO,Short-term,Urban,Stays open,516.4,512.7,hhs,99.3,0.0,99.3,0.0,99.3,,,1.6,7.6,11.8,16.1
+260137,Freeman Health System - Freeman West,Joplin,MO,Short-term,Urban,Stays open,380.5,285.5,hhs,75.0,0.0,75.0,0.0,75.0,,,6.4,-0.6,6.4,-1.9
+260195,Citizens Memorial Hospital,Bolivar,MO,Short-term,Urban,Stays open,79.3,34.8,hhs,43.9,0.0,43.9,0.0,43.9,,,6.7,-0.2,-0.2,1.9
+261316,Mercy Hospital Aurora,Aurora,MO,Critical access,Rural,Stays open,17.0,9.6,hhs,56.5,0.0,56.5,0.0,56.5,0.0,25.6,16.7,20.0,19.1,22.2
+261317,Mercy Hospital Cassville,Cassville,MO,Critical access,Rural,Stays open,15.4,5.3,hhs,34.3,0.0,34.3,0.0,34.3,0.0,25.1,17.4,15.1,14.2,19.1
+261323,Cedar County Memorial Hospital,El Dorado Springs,MO,Critical access,Rural,Stays open,25.0,5.0,hhs,19.9,0.0,19.9,0.0,19.9,3.0,5.7,14.5,-2.6,-4.2,-8.5
+261325,Cox Barton County Hospital,Lamar,MO,Critical access,Rural,Stays open,11.7,9.7,hhs,83.0,0.0,83.0,0.0,83.0,0.0,16.0,4.2,8.4,15.6,9.0
+261329,Cox Monett Hospital,Monett,MO,Critical access,Rural,Stays open,14.8,11.8,hhs,79.6,0.0,79.6,0.0,79.6,0.0,17.5,15.9,13.3,12.5,8.1
+261331,Freeman Neosho Hospital,Neosho,MO,Critical access,Rural,Stays open,25.0,9.7,hhs,38.6,2.4,48.0,0.0,38.6,0.0,19.3,20.6,1.0,28.0,16.8
+261338,Mercy Hospital Carthage,Carthage,MO,Critical access,Rural,Stays open,26.0,16.7,hhs,64.2,0.0,64.2,0.0,64.2,0.0,13.0,5.4,9.0,21.8,14.3
+321302,Dr Dan C Trigg Memorial Hospital,Tucumcari,NM,Critical access,Rural,Stays open,25.0,1.3,hcris,5.0,0.0,5.0,0.0,5.0,1.0,33.0,9.1,-1.2,2.5,21.6
+321304,Union County General Hospital,Clayton,NM,Critical access,Rural,Stays open,25.0,3.0,hcris,12.0,0.0,12.0,0.0,12.0,2.0,20.8,-3.8,-10.0,1.9,20.5
+321307,Miners' Colfax Medical Center,Raton,NM,Critical access,Rural,Stays open,18.0,5.9,hhs,32.8,0.0,32.8,0.0,32.8,2.0,35.9,-1.0,-16.4,32.9,5.7
+370001,Hillcrest Medical Center,Tulsa,OK,Short-term,Urban,Stays open,450.1,372.4,hhs,82.7,0.0,82.7,0.0,82.7,,,6.3,0.3,2.8,-1.6
+370002,INTEGRIS Health Woodward,Woodward,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),18.4,10.2,hhs,55.7,0.0,,0.0,,3.0,19.9,7.9,-13.6,-31.6,-40.6
+370004,INTEGRIS Miami Hospital,Miami,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),30.0,14.2,hhs,47.4,0.0,,0.0,,4.0,23.0,-7.6,-27.5,-27.2,-10.0
+370006,INTEGRIS Health Ponca City,Ponca City,OK,Short-term,Rural,Stays open,47.0,24.7,hhs,52.5,0.0,52.5,0.0,52.5,1.0,22.2,14.2,7.0,21.1,-6.5
+370008,Norman Regional,Norman,OK,Short-term,Urban,Stays open,368.4,241.8,hhs,65.6,0.0,65.6,0.0,65.6,,,-10.3,-3.3,-5.5,-10.3
+370013,"Mercy Hospital Oklahoma City, Inc",Oklahoma City,OK,Short-term,Urban,Stays open,269.9,267.1,hhs,98.9,0.0,98.9,0.0,98.9,,,6.7,12.8,12.5,17.2
+370014,AllianceHealth Durant,Durant,OK,Short-term,Rural,Stays open,138.0,60.0,hhs,43.5,0.8,44.1,2.5,45.3,0.0,26.2,23.9,26.8,25.0,28.4
+370015,Hillcrest Hospital Pryor,Pryor,OK,Short-term,Rural,Stays open,19.8,7.9,hhs,39.7,0.0,39.7,0.0,39.7,2.0,20.4,17.0,-3.8,6.4,-16.2
+370016,INTEGRIS Health Enid Hospital,Enid,OK,Short-term,Urban,Stays open,57.0,32.2,hhs,56.6,0.6,57.6,3.5,62.7,,,-22.8,-0.9,0.5,1.6
+370018,Ascension St. John Jane Phillips,Bartlesville,OK,Short-term,Rural,Stays open,97.0,65.1,hhs,67.1,0.0,67.1,0.0,67.1,1.0,13.5,-0.9,1.6,2.7,5.6
+370019,Great Plains Regional Medical Center,Elk City,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),62.0,25.7,hhs,41.5,0.0,,0.0,,3.0,20.2,0.4,-7.9,-7.5,-11.2
+370020,Mercy Hospital Ada,Ada,OK,Short-term,Rural,Stays open,64.6,57.2,hhs,88.6,0.0,88.6,3.6,94.1,2.0,18.0,-5.2,-0.8,4.5,7.2
+370022,Jackson County Memorial Hospital Authority,Altus,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),36.0,21.8,hhs,60.6,0.0,,0.0,,3.0,18.0,-6.1,-7.1,2.4,-2.9
+370023,"Duncan Regional Hospital, Inc",Duncan,OK,Short-term,Rural,Stays open,55.3,50.5,hhs,91.3,0.0,91.3,0.0,91.3,1.0,17.5,-17.2,3.4,8.0,6.6
+370025,Saint Francis Hospital Muskogee,Muskogee,OK,Short-term,Rural,Stays open,165.0,101.7,hhs,61.6,12.5,69.2,50.0,91.9,0.0,22.8,9.8,13.2,15.7,17.8
+370026,St Mary's Regional Medical Center,Enid,OK,Short-term,Urban,Stays open,99.3,54.1,hhs,54.4,0.0,54.4,0.0,54.4,,,2.1,-4.0,-7.4,-6.2
+370028,"INTEGRIS Baptist Medical Center, Inc",Oklahoma City,OK,Short-term,Urban,Stays open,545.2,452.7,hhs,83.0,0.0,83.0,0.0,83.0,,,-3.2,6.2,5.8,5.2
+370034,McAlester Regional Health Center,McAlester,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),96.0,51.6,hhs,53.7,0.0,,0.0,,4.0,22.2,-7.8,-11.6,-8.0,-10.9
+370037,SSM Health St Anthony Hospital - Oklahoma City,Oklahoma City,OK,Short-term,Urban,Stays open,344.3,286.7,hhs,83.3,0.0,83.3,0.0,83.3,,,8.8,0.1,10.3,8.8
+370039,Hillcrest Hospital Claremore,Claremore,OK,Short-term,Rural,Stays open,35.0,16.8,hhs,48.1,0.0,48.1,0.0,48.1,0.0,18.9,11.7,11.3,7.4,6.5
+370047,"Mercy Hospital Ardmore, Inc",Ardmore,OK,Short-term,Rural,Stays open,113.7,92.5,hhs,81.3,0.0,81.3,0.0,81.3,0.0,17.5,1.8,0.2,8.5,14.7
+370049,Stillwater Medical Center,Stillwater,OK,Short-term,Rural,Stays open,63.4,59.6,hhs,94.1,0.7,95.1,6.3,104.0,1.0,16.9,12.3,-6.6,6.5,4.8
+370054,Grady Memorial Hospital,Chickasha,OK,Short-term,Rural,Stays open,12.8,12.7,hhs,100.0,0.0,100.0,0.0,100.0,0.0,21.5,12.7,0.5,1.4,4.4
+370056,Memorial Health,Lawton,OK,Short-term,Urban,Stays open,148.4,148.4,hhs,100.0,1.7,101.2,1.7,101.2,,,-1.1,0.5,7.5,2.5
+370057,Muscogee (Creek) Nation Medical Center,Okmulgee,OK,Short-term,Rural,Tribal or IHS (not a destination here),50.0,3.2,hcris,6.5,0.0,6.5,0.0,6.5,,,-22.8,14.0,-4.0,-9.8
+370078,Oklahoma State University Medical Center,Tulsa,OK,Short-term,Urban,Stays open,235.0,93.3,hhs,39.7,0.0,39.7,0.0,39.7,,,12.2,8.6,9.1,8.7
+370083,Pushmataha County Town of Antlers Hospital,Antlers,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),15.8,7.6,hhs,48.0,0.0,,0.0,,3.0,25.4,-4.2,8.1,-0.3,-39.6
+370089,Northeastern Health System,Tahlequah,OK,Short-term,Rural,Stays open,90.0,51.8,hhs,57.6,2.0,59.8,2.0,59.8,2.0,19.8,6.3,-4.3,-0.0,1.7
+370091,"Saint Francis Hospital, Inc",Tulsa,OK,Short-term,Urban,Stays open,891.0,702.1,hhs,78.8,0.0,78.8,0.0,78.8,,,-1.6,19.8,24.2,22.0
+370093,OU Health University of Oklahoma Medical Center,Oklahoma City,OK,Short-term,Urban,Stays open,147.8,138.2,hhs,93.5,0.0,93.5,0.0,93.5,,,-4.0,6.1,9.5,7.0
+370094,SSM Health St Anthony Hospital - Midwest,Midwest City,OK,Short-term,Urban,Stays open,77.7,65.2,hhs,83.9,0.0,83.9,0.0,83.9,,,-6.4,-23.0,-0.1,4.4
+370097,Southwestern Medical Center,Lawton,OK,Short-term,Urban,Stays open,46.1,28.8,hhs,62.4,0.0,62.4,0.0,62.4,,,-11.9,-19.3,-19.7,-14.5
+370099,Hillcrest Hospital Cushing,Cushing,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),19.4,6.3,hhs,32.3,0.0,,0.0,,4.0,25.8,-23.2,-50.5,-32.5,-15.9
+370100,Choctaw Memorial Hospital,Hugo,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),34.0,8.0,hhs,23.5,0.0,,0.0,,3.0,26.5,29.9,-8.3,-7.9,-4.3
+370106,INTEGRIS Southwest Medical Center,Oklahoma City,OK,Short-term,Urban,Stays open,192.1,150.3,hhs,78.3,0.0,78.3,0.0,78.3,,,-8.8,-0.6,4.4,7.5
+370112,Northeastern Health System Sequoyah,Sallisaw,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),56.4,11.4,hhs,20.2,0.0,,0.0,,3.0,25.9,-2.2,-10.1,-5.9,29.2
+370113,INTEGRIS Grove Hospital,Grove,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),32.2,16.8,hhs,52.1,0.0,,0.0,,4.0,18.7,-1.9,-11.0,-12.6,-0.9
+370114,Ascension St. John Medical Center,Tulsa,OK,Short-term,Urban,Stays open,504.0,448.3,hhs,89.0,0.0,89.0,0.0,89.0,,,1.4,2.0,-3.2,-3.6
+370149,SSM Health St Anthony Hospital - Shawnee,Shawnee,OK,Short-term,Rural,Stays open,53.2,49.4,hhs,92.8,0.0,92.8,0.0,92.8,1.0,20.7,7.5,-2.1,0.7,4.8
+370158,Purcell Municipal Hospital,Purcell,OK,Short-term,Rural,Stays open,10.0,1.5,hcris,15.2,0.0,15.2,0.0,15.2,3.0,13.5,-3.4,-38.3,2.4,-0.0
+370166,Wagoner Community Hospital,Wagoner,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),16.0,7.7,hhs,48.3,0.0,,0.0,,3.0,37.7,8.7,-12.5,-11.2,-5.1
+370170,Lawton Indian Hospital,Lawton,OK,Short-term,Urban,Tribal or IHS (not a destination here),38.0,4.9,hcris,12.8,0.0,12.8,0.0,12.8,,,,,,
+370171,W W Hastings Indian Hospital,Tahlequah,OK,Short-term,Rural,Tribal or IHS (not a destination here),52.0,25.4,hcris,48.9,0.0,48.9,0.0,48.9,,,,,,
+370172,Choctaw Nation Health Services Authority,Talihina,OK,Short-term,Rural,Tribal or IHS (not a destination here),43.0,6.6,hcris,15.3,0.0,15.3,0.0,15.3,,,,,,
+370180,Chickasaw Nation Medical Center,Ada,OK,Short-term,Rural,Tribal or IHS (not a destination here),72.0,20.5,hcris,28.4,0.0,28.4,0.0,28.4,,,,,,
+370183,Hillcrest Hospital Henryetta,Henryetta,OK,Short-term,Rural,Meets the risk rule (closed in the scenario),13.5,9.9,hhs,73.3,0.0,,0.0,,4.0,23.2,-10.8,-11.1,-6.8,-15.0
+370202,Hillcrest Hospital South,Tulsa,OK,Short-term,Urban,Stays open,180.0,133.5,hhs,74.1,0.0,74.1,0.0,74.1,,,11.8,8.1,8.5,15.4
+370203,"Community Hospital, LLC",Oklahoma City,OK,Short-term,Urban,Stays open,44.9,22.1,hhs,49.2,0.0,49.2,0.0,49.2,,,27.3,23.8,24.7,23.5
+370211,INTEGRIS Canadian Valley Hospital,Yukon,OK,Short-term,Urban,Stays open,59.3,51.0,hhs,86.0,0.0,86.0,0.0,86.0,,,18.0,7.2,12.8,12.0
+370214,Lindsay Municipal Hospital,Lindsay,OK,Short-term,Rural,Stays open,24.0,19.4,hhs,81.0,0.0,81.0,0.0,81.0,2.0,55.0,-1.7,2.8,1.6,-3.2
+370218,"Saint Francis Hospital South, LLC",Tulsa,OK,Short-term,Urban,Stays open,102.0,70.6,hhs,69.2,0.0,69.2,3.7,72.8,,,36.2,35.0,35.2,33.9
+370220,OneCore Health,Oklahoma City,OK,Short-term,Urban,Stays open,7.0,2.1,hcris,30.4,0.0,30.4,0.0,30.4,,,10.7,-5.9,4.8,-9.0
+370222,McBride Orthopedic Hospital,Oklahoma City,OK,Short-term,Urban,Stays open,68.0,16.7,hhs,24.5,0.0,24.5,0.0,24.5,,,-0.0,-2.2,-2.1,1.7
+370225,"Summit Medical Center, LLC",Edmond,OK,Short-term,Urban,Stays open,9.0,3.0,hcris,33.8,0.0,33.8,0.0,33.8,,,10.8,10.5,7.3,2.7
+370227,Ascension St. John Owasso,Owasso,OK,Short-term,Urban,Stays open,52.0,17.7,hhs,34.0,0.0,34.0,0.0,34.0,,,5.9,1.7,2.1,5.3
+370228,"Bailey Medical Center, LLC",Owasso,OK,Short-term,Urban,Stays open,25.9,16.0,hhs,61.7,0.0,61.7,0.0,61.7,,,23.7,16.2,17.4,24.4
+370229,AllianceHealth Seminole,Seminole,OK,Short-term,Rural,Stays open,32.0,3.4,hcris,10.6,0.0,10.6,2.9,19.7,1.0,27.4,7.8,-20.5,,
+370235,Ascension St. John Broken Arrow,Broken Arrow,OK,Short-term,Urban,Stays open,57.6,25.8,hhs,44.8,0.8,46.2,0.8,46.2,,,12.5,4.9,12.0,3.9
+370236,INTEGRIS Health Edmond Hospital,Edmond,OK,Short-term,Urban,Stays open,70.0,47.0,hhs,67.1,0.0,67.1,0.0,67.1,,,5.5,-1.3,0.3,7.1
+370237,"Saint Francis Hospital Vinita, Inc",Vinita,OK,Short-term,Rural,Stays open,15.0,7.0,hhs,47.0,13.9,139.3,16.6,157.6,0.0,23.4,18.1,12.9,6.5,13.9
+370240,INTEGRIS Community Hospital - Council Crossing,Oklahoma City,OK,Short-term,Urban,Stays open,32.0,5.4,hhs,16.8,0.0,16.8,0.0,16.8,,,-21.0,-9.5,-7.9,2.4
+370243,Valley Community Hospital,Pauls Valley,OK,Short-term,Rural,Stays open,15.0,4.0,hhs,26.8,0.0,26.8,0.0,26.8,3.0,14.2,-105.4,-9.8,-77.3,
+370244,Council Oak Comprehensive Healthcare,Tulsa,OK,Short-term,Urban,Tribal or IHS (not a destination here),40.0,2.6,hcris,6.5,0.0,6.5,0.0,6.5,,,,,-71.8,
+370245,Clinton Regional Hospital,Clinton,OK,Short-term,Rural,Stays open,22.0,1.5,hcris,7.0,16.5,82.1,34.6,164.2,1.0,8.5,,,,-133.9
+370247,Exceptional Community Hospital Ardmore,Ardmore,OK,Short-term,Rural,Stays open,7.0,,pos,,5.4,,5.8,,,,,,,
+371300,Atoka County Medical Center,Atoka,OK,Critical access,Rural,Stays open,27.2,12.5,hhs,46.1,4.1,61.2,0.0,46.1,1.0,14.1,12.7,-2.5,0.6,0.8
+371301,Prague Regional Memorial Hospital,Prague,OK,Critical access,Rural,Stays open,13.0,9.0,hhs,69.0,3.1,93.1,0.0,69.0,3.0,9.9,-71.6,-18.8,-14.6,1.0
+371302,"Mercy Hospital Watonga, Inc",Watonga,OK,Critical access,Rural,Stays open,25.0,4.3,hcris,17.2,0.0,17.2,0.0,17.2,0.0,25.2,3.1,14.3,18.7,28.5
+371303,Roger Mills Memorial Hospital,Cheyenne,OK,Critical access,Rural,Stays open,15.0,5.3,hhs,35.5,9.2,96.8,0.0,35.5,4.0,14.8,-16.1,-5.6,-3.4,-0.3
+371304,Mercy Hospital Tishomingo,Tishomingo,OK,Critical access,Rural,Stays open,11.9,7.1,hhs,60.0,0.0,60.0,0.0,60.0,0.0,25.0,6.4,6.8,5.2,19.3
+371306,Mercy Health Love County,Marietta,OK,Critical access,Rural,Meets the risk rule (closed in the scenario),25.0,7.4,hhs,29.5,0.0,,0.0,,3.0,16.5,-0.3,-5.8,18.2,-12.4
+371307,Cimarron Memorial Hospital,Boise City,OK,Critical access,Rural,Stays open,25.0,2.3,hcris,9.1,0.0,9.1,0.0,9.1,2.0,11.9,22.6,2.1,-14.8,-6.3
+371309,"Pawhuska Hospital, Inc",Pawhuska,OK,Critical access,Rural,Stays open,20.0,12.9,hhs,64.4,0.0,64.4,0.0,64.4,2.0,8.5,3.6,-1.0,-9.0,2.5
+371310,"Mercy Hospital Healdton, Inc.",Healdton,OK,Critical access,Rural,Stays open,12.7,7.1,hhs,56.0,0.4,58.8,0.0,56.0,0.0,28.6,13.0,7.8,8.0,29.2
+371311,Jefferson County Hospital,Waurika,OK,Critical access,Rural,Stays open,10.4,6.9,hhs,66.7,0.0,66.7,0.0,66.7,0.0,24.4,17.8,17.4,12.5,16.2
+371312,Ascension St. John Sapulpa,Sapulpa,OK,Critical access,Rural,Stays open,25.0,14.9,hhs,59.7,4.0,75.7,0.0,59.7,2.0,22.2,-9.7,-5.3,7.6,25.5
+371313,"Mercy Hospital Kingfisher, Inc",Kingfisher,OK,Critical access,Rural,Stays open,19.0,11.3,hhs,59.9,0.0,59.9,0.0,59.9,1.0,13.6,-3.4,0.2,5.5,14.5
+371314,Rural Wellness Anadarko,Anadarko,OK,Critical access,Rural,Stays open,23.9,17.5,hhs,73.2,0.0,73.2,0.0,73.2,4.0,13.3,-43.1,-39.0,-21.4,-30.7
+371316,Rural Wellness Stroud Hospital,Stroud,OK,Critical access,Rural,Stays open,25.0,20.4,hhs,81.7,0.7,84.5,0.0,81.7,4.0,13.3,-49.2,-45.1,-32.8,-33.3
+371317,"Mercy Hospital Logan County, Inc",Guthrie,OK,Critical access,Rural,Stays open,19.0,13.3,hhs,69.8,0.0,69.8,0.0,69.8,0.0,23.3,4.5,4.9,9.0,16.4
+371318,Rural Wellness Fairfax Hospital,Fairfax,OK,Critical access,Rural,Stays open,25.0,12.3,hhs,49.1,0.0,49.1,0.0,49.1,4.0,14.4,-62.3,-49.7,-20.1,-42.3
+371319,"Coal County General Hospital, Inc.",Coalgate,OK,Critical access,Rural,Stays open,25.0,3.9,hcris,15.4,29.4,133.1,0.0,15.4,3.0,,-25.9,-20.4,-10.5,1.1
+371320,Cleveland Area Hospital,Cleveland,OK,Critical access,Rural,Stays open,14.0,6.6,hhs,47.2,0.3,49.3,0.0,47.2,0.0,32.6,19.3,19.0,12.0,5.4
+371321,Holdenville General Hospital,Holdenville,OK,Critical access,Rural,Stays open,16.7,12.1,hhs,72.3,2.9,89.5,0.0,72.3,1.0,16.8,4.9,-0.1,1.8,0.4
+371322,Beaver County Memorial Hospital,Beaver,OK,Critical access,Rural,Stays open,24.0,1.2,hcris,4.9,0.0,4.9,0.0,4.9,2.0,7.4,14.9,-10.7,-6.5,5.6
+371323,"Weatherford Regional Hospital, Inc of Weatherford",Weatherford,OK,Critical access,Rural,Stays open,17.9,6.8,hhs,38.1,0.0,38.1,0.0,38.1,1.0,21.0,14.7,0.5,-3.5,0.2
+371325,Cordell Memorial Hospital,Cordell,OK,Critical access,Rural,Stays open,14.0,2.0,hcris,14.3,0.0,14.3,0.0,14.3,1.0,14.7,12.7,2.4,2.0,-7.3
+371326,AllianceHealth Madill,Madill,OK,Critical access,Rural,Stays open,25.0,7.1,hhs,28.3,0.0,28.3,0.0,28.3,2.0,19.7,-0.2,-9.5,5.4,16.2
+371327,Okeene Municipal Hospital,Okeene,OK,Critical access,Rural,Stays open,13.4,5.4,hhs,40.4,1.5,51.7,0.0,40.4,3.0,10.6,6.2,-10.6,-6.9,-4.8
+371328,Arbuckle Memorial Hospital Authority,Sulphur,OK,Critical access,Rural,Stays open,25.0,15.9,hhs,63.7,0.0,63.7,0.0,63.7,0.0,18.7,21.1,8.7,7.6,9.2
+371329,Fairview Regional Medical Center Authority,Fairview,OK,Critical access,Rural,Meets the risk rule (closed in the scenario),25.0,2.1,hcris,8.5,0.0,,0.0,,3.0,15.8,0.1,-11.3,-3.1,-0.8
+371330,Mangum Regional Medical Center,Mangum,OK,Critical access,Rural,Stays open,21.5,10.6,hhs,49.2,19.3,139.2,0.0,49.2,3.0,11.5,13.7,-10.0,-12.9,-5.1
+371331,Drumright Regional Hospital,Drumright,OK,Critical access,Rural,Stays open,15.0,6.7,hhs,44.4,4.6,75.1,0.0,44.4,1.0,26.4,5.0,,-8.3,3.9
+371332,Seiling Municipal Hospital,Seiling,OK,Critical access,Rural,Stays open,14.0,7.0,hhs,49.7,3.0,71.0,0.0,49.7,1.0,4.3,-4.5,3.9,3.0,6.4
+371333,Creek Nation Community Hospital,Okemah,OK,Critical access,Rural,Tribal or IHS (not a destination here),25.0,1.3,hcris,5.0,0.0,5.0,0.0,5.0,,,80.7,-186.8,-186.3,-256.0
+371334,Carnegie Tri-county Municipal Hospital,Carnegie,OK,Critical access,Rural,Stays open,17.0,8.9,hhs,52.3,0.0,52.3,0.0,52.3,4.0,12.1,-3.4,-15.3,-1.2,-5.1
+371335,"Haskell Regional Hospital, Inc",Stigler,OK,Critical access,Rural,Stays open,25.0,2.9,hcris,11.4,16.7,78.3,0.0,11.4,2.0,32.2,-27.9,-38.5,14.8,7.5
+371336,Newman Memorial Hospital,Shattuck,OK,Critical access,Rural,Stays open,12.1,7.5,hhs,61.9,7.3,121.8,0.0,61.9,2.0,7.2,26.5,-8.0,-2.6,5.7
+371337,Eastern Oklahoma Medical Center,Poteau,OK,Critical access,Rural,Meets the risk rule (closed in the scenario),24.0,10.8,hhs,45.2,0.0,,0.0,,3.0,21.5,9.4,-0.0,-1.2,-2.4
+371338,Harmon Memorial Hospital,Hollis,OK,Critical access,Rural,Meets the risk rule (closed in the scenario),22.0,3.5,hcris,16.1,0.0,,0.0,,4.0,16.8,-34.9,-3.8,-15.8,-1.3
+371340,Memorial Hospital of Texas County Authority,Guymon,OK,Critical access,Rural,Stays open,6.0,1.6,hcris,27.3,0.0,27.3,0.0,27.3,2.0,17.2,-14.3,-15.5,14.2,17.0
+371341,Share Medical Center,Alva,OK,Critical access,Rural,Stays open,25.0,0.9,hcris,3.5,0.0,3.5,0.0,3.5,1.0,14.2,3.5,-5.3,2.6,5.4
+371342,McCurtain Memorial Hospital,Idabel,OK,Critical access,Rural,Stays open,21.8,14.1,hhs,64.7,0.8,68.2,0.0,64.7,2.0,26.7,-1.7,-0.2,10.3,8.6
+450010,United Regional Health Care System,Wichita Falls,TX,Short-term,Urban,Stays open,208.0,197.3,hhs,94.9,0.0,94.9,0.0,94.9,,,18.4,-9.2,25.7,28.3
+450015,Parkland Health and Hospital System,Dallas,TX,Short-term,Urban,Stays open,733.9,721.8,hhs,98.3,0.0,98.3,0.0,98.3,,,10.8,9.2,3.7,4.5
+450021,Baylor University Medical Center,Dallas,TX,Short-term,Urban,Stays open,699.0,687.8,hhs,98.4,0.0,98.4,0.0,98.4,,,22.5,26.0,30.1,35.4
+450039,Jps Health Network,Fort Worth,TX,Short-term,Urban,Stays open,459.0,448.2,hhs,97.6,0.0,97.6,0.0,97.6,,,24.0,10.8,17.8,20.9
+450044,UT Southwestern University Hospital,Dallas,TX,Short-term,Urban,Stays open,831.8,664.7,hhs,79.9,0.0,79.9,0.0,79.9,,,2.7,-0.3,3.0,3.0
+450051,Methodist Dallas Medical Center,Dallas,TX,Short-term,Urban,Stays open,330.7,318.6,hhs,96.3,0.0,96.3,0.0,96.3,,,1.6,-0.5,3.1,3.3
+450064,Texas Health Arlington Memorial Hospital,Arlington,TX,Short-term,Urban,Stays open,229.6,211.7,hhs,92.2,0.0,92.2,0.0,92.2,,,4.3,0.6,6.1,3.4
+450079,Baylor Scott and White Medical Center Irving,Irving,TX,Short-term,Urban,Stays open,196.6,188.0,hhs,95.6,0.0,95.6,0.0,95.6,,,-11.7,6.6,15.1,20.7
+450080,CHRISTUS Health-mount Pleasant,Mount Pleasant,TX,Short-term,Rural,Stays open,58.9,43.2,hhs,73.4,0.0,73.4,0.0,73.4,3.0,11.3,4.6,-2.0,-4.6,-1.8
+450087,Medical City North Hills,North Richland Hills,TX,Short-term,Urban,Stays open,110.5,96.2,hhs,87.1,0.0,87.1,0.0,87.1,,,18.5,26.8,27.7,31.2
+450090,North Texas Medical Center,Gainesville,TX,Short-term,Rural,Stays open,28.9,20.5,hhs,70.9,1.6,76.4,1.6,76.4,1.0,10.9,2.2,3.4,-4.1,0.2
+450135,Texas Health Harris Methodist Fort Worth,Fort Worth,TX,Short-term,Urban,Stays open,11.3,10.4,hhs,92.0,0.0,92.0,0.0,92.0,,,11.2,6.3,6.0,7.5
+450137,Baylor Scott and White All Saints Medical Center,Fort Worth,TX,Short-term,Urban,Stays open,291.0,279.1,hhs,95.9,0.0,95.9,0.0,95.9,,,13.5,2.0,11.0,18.0
+450196,Paris Regional Health,Paris,TX,Short-term,Rural,Stays open,126.9,104.3,hhs,82.1,11.3,91.0,14.8,93.8,0.0,11.6,15.4,7.1,11.0,11.4
+450203,Medical City Weatherford,Weatherford,TX,Short-term,Rural,Stays open,75.3,74.6,hhs,99.1,0.0,99.1,0.0,99.1,0.0,6.8,21.2,21.6,18.3,16.2
+450209,Northwest Texas Hospital,Amarillo,TX,Short-term,Urban,Stays open,224.8,217.7,hhs,96.9,0.0,96.9,0.0,96.9,,,6.7,12.6,8.0,7.7
+450231,Bsa Hospital,Amarillo,TX,Short-term,Urban,Stays open,361.1,343.5,hhs,95.1,0.0,95.1,0.0,95.1,,,0.1,-3.3,-0.9,4.2
+450236,CHRISTUS Mother Frances Hospital Sulphur Springs,Sulphur Springs,TX,Short-term,Rural,Stays open,56.0,29.6,hcris,52.8,0.0,52.8,0.0,52.8,0.0,9.3,19.7,17.9,20.0,17.3
+450241,Faith Community Hospital,Jacksboro,TX,Short-term,Rural,Stays open,23.1,6.6,hhs,28.5,0.0,28.5,0.0,28.5,2.0,13.1,18.4,27.1,-27.8,-6.9
+450292,Texas Health Presbyterian Hospital Kaufman,Kaufman,TX,Short-term,Urban,Stays open,20.0,9.7,hhs,48.4,0.0,48.4,0.0,48.4,,,17.5,13.5,14.0,20.4
+450324,Texoma Medical Center,Denison,TX,Short-term,Urban,Stays open,318.8,303.8,hhs,95.3,0.0,95.3,0.0,95.3,,,9.8,4.4,10.6,9.4
+450352,Hunt Regional Healthcare,Greenville,TX,Short-term,Rural,Stays open,127.7,124.7,hhs,97.7,0.0,97.7,0.0,97.7,3.0,11.2,1.2,-5.0,-2.7,-5.6
+450369,Childress Regional Medical Center,Childress,TX,Short-term,Rural,Stays open,26.7,6.2,hhs,23.2,0.0,23.2,3.5,36.5,0.0,8.7,31.6,19.3,14.7,17.3
+450379,Dallas Medical Center,Dallas,TX,Short-term,Urban,Stays open,56.2,41.4,hhs,73.7,0.0,73.7,0.0,73.7,,,-13.1,-41.2,-10.9,-11.0
+450403,Medical City Mckinney,Mckinney,TX,Short-term,Urban,Stays open,285.5,243.0,hhs,85.1,0.0,85.1,0.0,85.1,,,5.8,-0.2,3.5,1.9
+450419,Texas Health Harris Methodist Hospital Azle,Azle,TX,Short-term,Urban,Stays open,22.3,12.1,hhs,54.2,0.0,54.2,0.0,54.2,,,21.1,15.9,15.6,14.2
+450422,Baylor Scott and White Medical Center Uptown,Dallas,TX,Short-term,Urban,Stays open,24.0,9.0,hhs,37.5,0.0,37.5,0.0,37.5,,,24.4,17.2,16.6,18.6
+450462,Texas Health Presbyterian Hospital Dallas,Dallas,TX,Short-term,Urban,Stays open,454.8,443.4,hhs,97.5,0.0,97.5,0.0,97.5,,,12.1,4.1,3.0,13.0
+450469,Ahs Sherman Medical Center,Sherman,TX,Short-term,Urban,Stays open,61.0,26.2,hhs,42.9,0.0,42.9,0.0,42.9,,,25.4,-43.8,40.4,19.1
+450537,Methodist Richardson Medical Center,Richardson,TX,Short-term,Urban,Stays open,283.1,278.0,hhs,98.2,0.0,98.2,0.0,98.2,,,18.5,15.4,13.2,12.1
+450563,Baylor Scott & White Medical Center Grapevine,Grapevine,TX,Short-term,Urban,Stays open,206.1,197.6,hhs,95.9,0.0,95.9,0.0,95.9,,,1.9,28.7,38.5,41.0
+450565,Palo Pinto General Hospital,Mineral Wells,TX,Short-term,Rural,Stays open,40.9,22.1,hhs,54.0,0.0,54.0,0.0,54.0,1.0,16.6,13.7,2.0,0.8,-2.1
+450584,Wilbarger General Hospital,Vernon,TX,Short-term,Rural,Stays open,34.9,10.0,hhs,28.6,0.7,30.7,20.1,86.2,2.0,5.9,19.0,9.4,-7.6,-13.4
+450634,Medical City Denton,Denton,TX,Short-term,Urban,Stays open,166.9,155.0,hhs,92.9,0.0,92.9,0.0,92.9,,,21.4,23.4,26.9,14.3
+450639,Texas Health Heb,Bedford,TX,Short-term,Urban,Stays open,162.6,142.1,hhs,87.4,0.0,87.4,0.0,87.4,,,5.4,2.3,5.7,8.1
+450641,Nocona General Hospital,Nocona,TX,Short-term,Rural,Stays open,18.0,3.6,hcris,20.1,0.0,20.1,0.0,20.1,0.0,8.5,25.1,29.0,18.4,32.1
+450647,Medical City Dallas,Dallas,TX,Short-term,Urban,Stays open,595.1,592.2,hhs,99.5,0.0,99.5,0.0,99.5,,,42.9,49.8,51.8,52.5
+450651,Medical City Plano,Plano,TX,Short-term,Urban,Stays open,509.1,462.4,hhs,90.8,0.0,90.8,0.0,90.8,,,34.3,40.5,39.1,40.1
+450669,Medical City Lewisville,Lewisville,TX,Short-term,Urban,Stays open,139.7,103.7,hhs,74.2,0.0,74.2,0.0,74.2,,,13.5,20.6,11.5,17.3
+450672,Medical City Fort Worth,Fort Worth,TX,Short-term,Urban,Stays open,217.3,199.7,hhs,91.9,0.0,91.9,0.0,91.9,,,20.0,23.1,22.4,23.3
+450675,Medical City Arlington,Arlington,TX,Short-term,Urban,Stays open,299.2,273.6,hhs,91.4,0.0,91.4,0.0,91.4,,,26.9,29.7,33.7,27.3
+450678,White Rock Medical Center,Dallas,TX,Short-term,Urban,Stays open,130.3,59.6,hhs,45.8,0.0,45.8,0.0,45.8,,,-11.2,-44.0,-9.2,-7.8
+450688,Dallas Regional Medical Center,Mesquite,TX,Short-term,Urban,Stays open,91.8,71.9,hhs,78.3,0.0,78.3,0.0,78.3,,,11.5,2.4,6.2,15.4
+450723,Methodist Southwest Medical Center,Dallas,TX,Short-term,Urban,Stays open,257.2,249.4,hhs,97.0,0.0,97.0,0.0,97.0,,,1.7,-7.2,-3.0,1.0
+450730,Carrollton Regional Medical Center,Carrollton,TX,Short-term,Urban,Stays open,0.0,0.0,hhs,,0.0,,0.0,,,,12.3,1.0,2.5,-0.2
+450742,Baylor Scott and White Medical Center Lake Pointe,Rowlett,TX,Short-term,Urban,Stays open,128.9,126.3,hhs,98.0,0.0,98.0,0.0,98.0,,,18.6,21.8,21.1,27.7
+450743,Texas Health Presbyterian Hospital Denton,Denton,TX,Short-term,Urban,Stays open,161.5,153.7,hhs,95.2,0.0,95.2,0.0,95.2,,,9.5,4.2,8.2,5.7
+450771,Texas Health Presbyterian Hospital Plano,Plano,TX,Short-term,Urban,Stays open,285.4,275.6,hhs,96.6,0.0,96.6,0.0,96.6,,,18.2,15.5,18.1,16.0
+450779,Texas Health Harris Methodist Hospital Southwest F,Fort Worth,TX,Short-term,Urban,Stays open,211.7,196.7,hhs,92.9,0.0,92.9,0.0,92.9,,,13.8,11.1,12.4,11.9
+450801,CHRISTUS St Michael Health System,Texarkana,TX,Short-term,Urban,Stays open,334.6,235.9,hhs,70.5,0.0,70.5,0.0,70.5,,,9.3,7.9,5.3,6.7
+450822,Medical City Las Colinas,Irving,TX,Short-term,Urban,Stays open,51.3,44.6,hhs,86.9,0.0,86.9,0.0,86.9,,,18.7,20.3,5.6,19.2
+450840,Texas Health Presbyterian Hospital Allen,Allen,TX,Short-term,Urban,Stays open,52.7,46.8,hhs,88.8,0.0,88.8,0.0,88.8,,,14.8,9.0,10.5,10.2
+450853,Baylor Medical Center at Frisco,Frisco,TX,Short-term,Urban,Stays open,45.7,34.7,hhs,75.9,0.0,75.9,0.0,75.9,,,14.3,11.3,13.3,17.5
+450872,Usmd Hospital at Arlington L P,Arlington,TX,Short-term,Urban,Stays open,41.0,10.0,hhs,24.3,0.0,24.3,0.0,24.3,,,6.9,-10.1,1.5,-1.2
+450883,Baylor Medical Center at Trophy Club,Trophy Club,TX,Short-term,Urban,Stays open,28.2,8.7,hhs,30.8,0.0,30.8,0.0,30.8,,,37.9,31.8,29.4,25.3
+450885,Baylor Scott & White Medical Center - Centennial,Frisco,TX,Short-term,Urban,Stays open,71.3,62.2,hhs,87.3,0.0,87.3,0.0,87.3,,,14.6,10.1,19.2,19.9
+450888,Texas Health Harris Methodist Hospital Southlake,Southlake,TX,Short-term,Urban,Stays open,4.0,0.0,hhs,0.0,0.0,0.0,0.0,0.0,,,16.8,14.4,18.3,15.7
+450890,Baylor Regional Medical Center at Plano,Plano,TX,Short-term,Urban,Stays open,138.6,129.9,hhs,93.7,0.0,93.7,0.0,93.7,,,40.7,18.3,42.4,46.4
+451331,Coon Memorial Hospital,Dalhart,TX,Critical access,Rural,Stays open,15.0,6.4,hhs,42.7,0.0,42.7,0.0,42.7,3.0,20.8,-13.3,-17.2,0.0,-4.1
+451334,Parkview Hospital,Wheeler,TX,Critical access,Rural,Stays open,15.0,1.4,hcris,9.2,0.0,9.2,0.0,9.2,0.0,6.7,23.8,8.6,20.7,19.6
+451335,Muenster Memorial Hospital,Muenster,TX,Critical access,Rural,Stays open,13.1,10.2,hhs,77.8,0.0,77.8,0.0,77.8,2.0,2.3,2.1,-1.4,-4.7,1.7
+451337,W J Mangold Memorial Hospital,Lockney,TX,Critical access,Rural,Stays open,25.0,2.0,hcris,7.9,0.0,7.9,0.0,7.9,3.0,12.4,-16.3,5.9,-3.3,-12.6
+451339,Throckmorton County Memorial Hospital,Throckmorton,TX,Critical access,Rural,Stays open,14.0,0.9,hcris,6.8,0.0,6.8,0.0,6.8,4.0,0.2,-5.5,-9.7,-17.0,-7.9
+451340,Shamrock General Hospital,Shamrock,TX,Critical access,Rural,Stays open,25.0,1.1,hcris,4.3,0.0,4.3,0.0,4.3,2.0,9.0,19.1,9.6,-5.2,-6.3
+451341,Haskell Memorial Hospital,Haskell,TX,Critical access,Rural,Stays open,25.0,2.2,hcris,8.8,0.0,8.8,0.0,8.8,3.0,1.2,-34.1,-15.9,-8.9,7.9
+451343,Electra Memorial Hospital,Electra,TX,Critical access,Rural,Stays open,19.0,5.7,hhs,30.2,0.0,30.2,0.0,30.2,1.0,5.4,16.0,13.3,-3.0,8.4
+451344,Hansford County Hospital,Spearman,TX,Critical access,Rural,Stays open,14.0,2.0,hcris,14.5,0.0,14.5,0.0,14.5,3.0,11.1,2.9,-14.5,-3.2,-9.1
+451352,Hardeman County Memorial Hospital,Quanah,TX,Critical access,Rural,Stays open,24.0,2.3,hcris,9.7,0.6,12.3,0.0,9.7,0.0,9.4,2.2,3.5,0.9,0.6
+451354,Hamilton Hospital,Olney,TX,Critical access,Rural,Stays open,29.0,7.9,hhs,27.1,0.0,27.1,0.0,27.1,0.0,11.7,18.3,14.0,12.0,15.0
+451355,Collingsworth General Hospital,Wellington,TX,Critical access,Rural,Stays open,13.0,2.1,hcris,15.8,2.9,38.2,0.0,15.8,1.0,11.8,34.2,4.4,9.7,-4.7
+451359,Ochiltree General Hospital,Perryton,TX,Critical access,Rural,Stays open,23.3,6.3,hhs,27.0,0.0,27.0,0.0,27.0,0.0,10.1,17.4,18.6,7.1,4.7
+451362,Clay County Memorial Hospital,Henrietta,TX,Critical access,Rural,Stays open,25.0,1.7,hcris,6.6,0.0,6.6,0.0,6.6,1.0,4.7,15.3,16.8,0.3,-15.6
+451367,UT Health East Texas Pittsburg Hospital,Pittsburg,TX,Critical access,Rural,Stays open,17.4,9.2,hhs,52.7,0.0,52.7,0.0,52.7,0.0,9.6,16.9,16.5,8.0,11.9
+451369,Golden Plains Community Hospital,Borger,TX,Critical access,Rural,Stays open,38.2,8.4,hhs,22.1,0.0,22.1,0.0,22.1,2.0,19.3,14.7,-7.6,14.4,-11.6
+451370,Tmc- Bonham Hospital,Bonham,TX,Critical access,Rural,Stays open,22.5,16.8,hhs,74.5,0.0,74.5,0.0,74.5,4.0,8.2,-0.7,-0.7,-0.4,-1.4
+451380,UT Health East Texas Quitman Hospital,Quitman,TX,Critical access,Rural,Stays open,39.6,21.5,hhs,54.3,0.0,54.3,0.0,54.3,0.0,7.2,12.3,9.6,4.0,11.7
+451381,CHRISTUS Mother Frances Hospital- Winnsboro,Winnsboro,TX,Critical access,Rural,Stays open,23.0,7.8,hhs,34.0,0.0,34.0,0.0,34.0,0.0,6.6,17.2,13.1,11.2,1.6
+451386,Memorial Hospital,Dumas,TX,Critical access,Rural,Stays open,15.0,8.5,hhs,56.9,0.0,56.9,0.0,56.9,2.0,13.8,5.2,-0.4,-3.6,4.7
+451394,Knox County Hospital,Knox City,TX,Critical access,Rural,Stays open,19.9,1.5,hhs,7.6,0.0,7.6,0.0,7.6,2.0,9.0,3.7,35.4,-3.4,-4.7
+451398,Pampa Regional Medical Center,Pampa,TX,Critical access,Rural,Stays open,84.0,11.0,hhs,13.1,0.0,13.1,0.0,13.1,1.0,4.1,,,-48.6,9.0
+451399,Seymour Hospital,Seymour,TX,Critical access,Rural,Stays open,25.0,4.7,hcris,18.7,0.0,18.7,0.0,18.7,1.0,11.3,,,-1.3,1.7
+670023,Methodist Mansfield Medical Center,Mansfield,TX,Short-term,Urban,Stays open,237.2,228.2,hhs,96.2,0.0,96.2,0.0,96.2,,,22.8,18.7,15.4,13.7
+670044,Texas Health Presbyterian Hospital Rockwall,Rockwall,TX,Short-term,Urban,Stays open,61.5,46.1,hhs,74.9,0.0,74.9,0.0,74.9,,,11.2,-6.0,11.4,12.0
+670060,Baylor Scott and White Medical Center Sunnyvale,Sunnyvale,TX,Short-term,Urban,Stays open,61.0,57.0,hhs,93.5,0.0,93.5,0.0,93.5,,,14.1,-4.0,9.2,12.3
+670068,Texas Health Presbyterian Hospital Flower Mound,Flower Mound,TX,Short-term,Urban,Stays open,71.6,71.4,hhs,99.8,0.0,99.8,0.0,99.8,,,19.8,21.5,25.7,22.7
+670069,Methodist Mckinney Hospital,Mckinney,TX,Short-term,Urban,Stays open,25.1,9.3,hhs,37.2,0.0,37.2,0.0,37.2,,,5.6,10.8,7.1,7.2
+670082,Baylor Scott and White Medical Center Mckinney,Mc Kinney,TX,Short-term,Urban,Stays open,164.5,160.3,hhs,97.5,0.0,97.5,0.0,97.5,,,12.1,17.7,20.4,23.3
+670085,Texas Health Harris Methodist Hospital Alliance,Fort Worth,TX,Short-term,Urban,Stays open,120.1,97.6,hhs,81.3,0.0,81.3,0.0,81.3,,,16.5,17.2,19.5,21.3
+670090,Crescent Medical Center Lancaster,Lancaster,TX,Short-term,Urban,Stays open,42.6,21.7,hhs,50.9,0.0,50.9,0.0,50.9,,,11.8,-4.2,9.1,8.5
+670103,Medical City Alliance,Fort Worth,TX,Short-term,Urban,Stays open,85.4,77.3,hhs,90.5,0.0,90.5,0.0,90.5,,,30.6,30.9,33.2,29.0
+670121,Saint Camillus Medical Center,Hurst,TX,Short-term,Urban,Stays open,8.0,0.0,hhs,0.0,0.0,0.0,0.0,0.0,,,,,,
+670132,Methodist Southlake Medical Center,Southlake,TX,Short-term,Urban,Stays open,20.8,6.8,hhs,32.4,0.0,32.4,0.0,32.4,,,-63.0,-64.1,-45.0,-20.1
+670260,Texas Health Hospital Frisco,Frisco,TX,Short-term,Urban,Stays open,67.9,56.8,hhs,83.7,0.0,83.7,0.0,83.7,,,7.1,8.9,12.2,15.8
+670265,Legent Orthopedic Hospital,Carrollton,TX,Short-term,Urban,Stays open,11.1,0.0,hhs,0.0,0.0,0.0,0.0,0.0,,,3.5,-12.6,-11.7,1.1
+670309,Texas Health Hospital Mansfield,Mansfield,TX,Short-term,Urban,Stays open,22.3,17.3,hhs,77.7,0.0,77.7,0.0,77.7,,,-129.8,-37.4,-4.5,0.4
+670340,Methodist Celina Medical Center,Celina,TX,Short-term,Urban,Stays open,51.0,,pos,,0.0,,0.0,,,,,,,
+670346,Baylor Scott and White Medical Center Frisco at Pg,Frisco,TX,Short-term,Urban,Stays open,84.0,,pos,,0.0,,0.0,,,,,,,
+671300,Graham Regional Medical Center,Graham,TX,Critical access,Rural,Stays open,25.0,2.4,hcris,9.5,0.0,9.5,0.0,9.5,0.0,2.9,,,15.8,2.0
+671301,Hemphill County Hospital,Canadian,TX,Critical access,Rural,Stays open,20.9,7.0,hhs,33.5,0.0,33.5,0.0,33.5,0.0,2.4,,,12.6,

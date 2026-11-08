@@ -1,0 +1,80 @@
+table StateYears
+	lineageTag: c7396b4b-6b1f-924e-a902-d89894776280
+
+	/// Closed (some later reopened), by the year Medicare ended the agreement
+	measure Closed = SUM ( StateYears[closed_in_year] )
+		formatString: #,0
+		lineageTag: 285aaf7e-0bb4-2e4a-a7bf-422361a1dfef
+
+	measure 'Became Rural Emergency Hospitals' = SUM ( StateYears[reh_in_year] )
+		formatString: #,0
+		lineageTag: 5ec4c64e-3b7a-6426-f036-c1b6b381d37f
+
+	measure 'Stopped inpatient care' = SUM ( StateYears[ended_in_year] )
+		formatString: #,0
+		lineageTag: e7223d4e-2d4c-4694-7d0e-bf09236506fe
+
+	column state
+		dataType: string
+		lineageTag: 506b5928-2034-4224-a383-f19e779a71d7
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column yr
+		dataType: string
+		lineageTag: 37a698b7-42e0-9c8b-e433-3852ab996f8a
+		summarizeBy: none
+		sourceColumn: yr
+
+		annotation SummarizationSetBy = Automatic
+
+	column closed_in_year
+		dataType: int64
+		formatString: #,0
+		lineageTag: 0fc51768-257e-9f85-4485-10349d2b7cb9
+		summarizeBy: none
+		sourceColumn: closed_in_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column reh_in_year
+		dataType: int64
+		formatString: #,0
+		lineageTag: a072523c-64d8-c6d9-0cb9-970d173e6553
+		summarizeBy: none
+		sourceColumn: reh_in_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column ended_in_year
+		dataType: int64
+		formatString: #,0
+		lineageTag: 5b66042d-18e2-f5c0-71a6-bc80cb1aedbd
+		summarizeBy: none
+		sourceColumn: ended_in_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column ended_so_far
+		dataType: int64
+		formatString: #,0
+		lineageTag: 1ae11a62-e774-d199-3e6e-a4c418bc375e
+		summarizeBy: none
+		sourceColumn: ended_so_far
+
+		annotation SummarizationSetBy = Automatic
+
+	partition StateYears = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("tables/state_years.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"state", "yr", "closed_in_year", "reh_in_year", "ended_in_year", "ended_so_far"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"state", type text}, {"yr", type text}, {"closed_in_year", Int64.Type}, {"reh_in_year", Int64.Type}, {"ended_in_year", Int64.Type}, {"ended_so_far", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

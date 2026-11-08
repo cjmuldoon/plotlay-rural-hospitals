@@ -1,0 +1,86 @@
+table States
+	lineageTag: b8464cdd-84b5-f068-ad72-bf5c4f32163d
+
+	/// Rural hospitals with losses in 3 or more of 2021-24 and a Medicaid share at or above the rural median
+	measure 'Rural hospitals meeting the rule' = SUM ( States[meets_rule] )
+		formatString: #,0
+		lineageTag: af6096af-05ca-cc9f-1763-99a1f19c1126
+
+	measure 'Rural hospitals with cost reports' = SUM ( States[rural_hospitals] )
+		formatString: #,0
+		lineageTag: 646c8d68-5ff5-03b3-75a6-f67449d6cf32
+
+	column state
+		dataType: string
+		lineageTag: f7a372c7-4010-575b-129f-b66cb376ef69
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 3eaf74d8-5294-31e8-7dfd-f78c2f7095f6
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column rural_hospitals
+		dataType: int64
+		formatString: #,0
+		lineageTag: d646c6a1-70aa-178e-4b70-418a47fd360b
+		summarizeBy: none
+		sourceColumn: rural_hospitals
+
+		annotation SummarizationSetBy = Automatic
+
+	column loss_3plus
+		dataType: int64
+		formatString: #,0
+		lineageTag: c5d0c3c1-39e8-1037-12c9-18058014aea7
+		summarizeBy: none
+		sourceColumn: loss_3plus
+
+		annotation SummarizationSetBy = Automatic
+
+	column meets_rule
+		dataType: int64
+		formatString: #,0
+		lineageTag: 19274889-b5d8-2bb3-8a33-2d78a61eda24
+		summarizeBy: none
+		sourceColumn: meets_rule
+
+		annotation SummarizationSetBy = Automatic
+
+	column share_meeting
+		dataType: double
+		formatString: 0.0
+		lineageTag: 3301deea-8354-7504-1688-ce7722e23de3
+		summarizeBy: none
+		sourceColumn: share_meeting
+
+		annotation SummarizationSetBy = Automatic
+
+	column name_short
+		dataType: string
+		lineageTag: 4c1650c4-5edf-681b-2149-4d4a2bc52f48
+		summarizeBy: none
+		sourceColumn: name_short
+
+		annotation SummarizationSetBy = Automatic
+
+	partition States = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("tables/states.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"state", "name", "rural_hospitals", "loss_3plus", "meets_rule", "share_meeting"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"state", type text}, {"name", type text}, {"rural_hospitals", Int64.Type}, {"loss_3plus", Int64.Type}, {"meets_rule", Int64.Type}, {"share_meeting", type number}}, "en-US"),
+				    ShortNames_name_short = [],
+				    Short_name_short = Table.AddColumn(Typed, "name_short", each Record.FieldOrDefault(ShortNames_name_short, [name], [name]), type text)
+				in
+				    Short_name_short
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,68 @@
+table Closures
+	lineageTag: f2d630c9-f547-6e26-be78-c865bb09939a
+
+	/// Oklahoma rural hospitals whose inpatient care ended since 2005
+	measure 'Inpatient care ended' = COUNTROWS ( Closures )
+		formatString: #,0
+		lineageTag: c298e486-2429-9199-ab15-40e9e24717e6
+
+	column closure
+		dataType: string
+		lineageTag: 2a796410-8197-3bb0-dc3c-29b02c4f1ce2
+		summarizeBy: none
+		sourceColumn: closure
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 1fc6e5e2-aae1-4b05-224d-8877b2d7dcca
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column town
+		dataType: string
+		lineageTag: 6d8be706-72e3-1b68-dc9f-2a20bf9fa187
+		summarizeBy: none
+		sourceColumn: town
+
+		annotation SummarizationSetBy = Automatic
+
+	column ended
+		dataType: string
+		lineageTag: 0b7ba3f6-2929-221a-7451-3660a973f6ec
+		summarizeBy: none
+		sourceColumn: ended
+
+		annotation SummarizationSetBy = Automatic
+
+	column what
+		dataType: string
+		lineageTag: fcf22125-eb2c-a80d-26c2-bea7ca831ecc
+		summarizeBy: none
+		sourceColumn: what
+
+		annotation SummarizationSetBy = Automatic
+
+	column beds_when_open
+		dataType: string
+		lineageTag: 9fc3d8ce-4f68-150c-6b3a-f9e4eb128d13
+		summarizeBy: none
+		sourceColumn: beds_when_open
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Closures = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("tables/closures.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"closure", "name", "town", "ended", "what", "beds_when_open"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"closure", type text}, {"name", type text}, {"town", type text}, {"ended", type text}, {"what", type text}, {"beds_when_open", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

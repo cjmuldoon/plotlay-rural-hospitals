@@ -1,0 +1,83 @@
+variant,from_ccn,from_name,to_ccn,patients_a_day,to_name
+A,370002,INTEGRIS Health Woodward,371332,2.99,Seiling Municipal Hospital
+A,370002,INTEGRIS Health Woodward,371336,7.26,Newman Memorial Hospital
+A,370004,INTEGRIS Miami Hospital,171308,2.27,Mercy Hospital Columbus
+A,370004,INTEGRIS Miami Hospital,260001,7.52,Mercy Hospital Joplin
+A,370004,INTEGRIS Miami Hospital,261331,1.14,Freeman Neosho Hospital
+A,370004,INTEGRIS Miami Hospital,370237,3.28,"Saint Francis Hospital Vinita, Inc"
+A,370019,Great Plains Regional Medical Center,370245,16.54,Clinton Regional Hospital
+A,370019,Great Plains Regional Medical Center,371303,9.2,Roger Mills Memorial Hospital
+A,370022,Jackson County Memorial Hospital Authority,370056,1.74,Memorial Health
+A,370022,Jackson County Memorial Hospital Authority,371330,18.72,Mangum Regional Medical Center
+A,370022,Jackson County Memorial Hospital Authority,450584,0.74,Wilbarger General Hospital
+A,370022,Jackson County Memorial Hospital Authority,451352,0.62,Hardeman County Memorial Hospital
+A,370034,McAlester Regional Health Center,370025,3.04,Saint Francis Hospital Muskogee
+A,370034,McAlester Regional Health Center,371300,1.34,Atoka County Medical Center
+A,370034,McAlester Regional Health Center,371319,29.42,"Coal County General Hospital, Inc."
+A,370034,McAlester Regional Health Center,371321,2.01,Holdenville General Hospital
+A,370034,McAlester Regional Health Center,371335,15.76,"Haskell Regional Hospital, Inc"
+A,370083,Pushmataha County Town of Antlers Hospital,371300,2.76,Atoka County Medical Center
+A,370083,Pushmataha County Town of Antlers Hospital,450196,4.82,Paris Regional Health
+A,370099,Hillcrest Hospital Cushing,370049,0.68,Stillwater Medical Center
+A,370099,Hillcrest Hospital Cushing,371316,0.69,Rural Wellness Stroud Hospital
+A,370099,Hillcrest Hospital Cushing,371320,0.3,Cleveland Area Hospital
+A,370099,Hillcrest Hospital Cushing,371331,4.61,Drumright Regional Hospital
+A,370100,Choctaw Memorial Hospital,370014,0.78,AllianceHealth Durant
+A,370100,Choctaw Memorial Hospital,371342,0.76,McCurtain Memorial Hospital
+A,370100,Choctaw Memorial Hospital,450196,6.45,Paris Regional Health
+A,370112,Northeastern Health System Sequoyah,040055,8.75,Baptist Health - Fort Smith
+A,370112,Northeastern Health System Sequoyah,370025,1.24,Saint Francis Hospital Muskogee
+A,370112,Northeastern Health System Sequoyah,370089,1.38,Northeastern Health System
+A,370113,INTEGRIS Grove Hospital,041331,4.97,Ozarks Community Hospital of Gravette
+A,370113,INTEGRIS Grove Hospital,261331,1.22,Freeman Neosho Hospital
+A,370113,INTEGRIS Grove Hospital,370237,10.57,"Saint Francis Hospital Vinita, Inc"
+A,370166,Wagoner Community Hospital,370025,6.32,Saint Francis Hospital Muskogee
+A,370166,Wagoner Community Hospital,370089,0.6,Northeastern Health System
+A,370166,Wagoner Community Hospital,370235,0.81,Ascension St. John Broken Arrow
+A,370183,Hillcrest Hospital Henryetta,370025,1.87,Saint Francis Hospital Muskogee
+A,370183,Hillcrest Hospital Henryetta,371301,3.14,Prague Regional Memorial Hospital
+A,370183,Hillcrest Hospital Henryetta,371312,3.99,Ascension St. John Sapulpa
+A,370183,Hillcrest Hospital Henryetta,371321,0.87,Holdenville General Hospital
+A,371306,Mercy Health Love County,370247,5.43,Exceptional Community Hospital Ardmore
+A,371306,Mercy Health Love County,371310,0.36,"Mercy Hospital Healdton, Inc."
+A,371306,Mercy Health Love County,450090,1.59,North Texas Medical Center
+A,371329,Fairview Regional Medical Center Authority,370016,0.61,INTEGRIS Health Enid Hospital
+A,371329,Fairview Regional Medical Center Authority,371327,1.51,Okeene Municipal Hospital
+A,371337,Eastern Oklahoma Medical Center,040055,7.69,Baptist Health - Fort Smith
+A,371337,Eastern Oklahoma Medical Center,041305,1.8,Mercy Hospital Waldron
+A,371337,Eastern Oklahoma Medical Center,041334,0.4,Mena Regional Health System
+A,371337,Eastern Oklahoma Medical Center,371335,0.96,"Haskell Regional Hospital, Inc"
+A,371338,Harmon Memorial Hospital,371330,0.62,Mangum Regional Medical Center
+A,371338,Harmon Memorial Hospital,451355,2.91,Collingsworth General Hospital
+B,370002,INTEGRIS Health Woodward,370016,1.39,INTEGRIS Health Enid Hospital
+B,370002,INTEGRIS Health Woodward,370245,8.86,Clinton Regional Hospital
+B,370004,INTEGRIS Miami Hospital,260001,10.92,Mercy Hospital Joplin
+B,370004,INTEGRIS Miami Hospital,370237,3.28,"Saint Francis Hospital Vinita, Inc"
+B,370019,Great Plains Regional Medical Center,370245,25.73,Clinton Regional Hospital
+B,370022,Jackson County Memorial Hospital Authority,370056,1.74,Memorial Health
+B,370022,Jackson County Memorial Hospital Authority,450584,20.08,Wilbarger General Hospital
+B,370034,McAlester Regional Health Center,040055,7.04,Baptist Health - Fort Smith
+B,370034,McAlester Regional Health Center,370014,1.76,AllianceHealth Durant
+B,370034,McAlester Regional Health Center,370020,3.6,Mercy Hospital Ada
+B,370034,McAlester Regional Health Center,370025,39.17,Saint Francis Hospital Muskogee
+B,370083,Pushmataha County Town of Antlers Hospital,450196,7.58,Paris Regional Health
+B,370099,Hillcrest Hospital Cushing,370049,6.28,Stillwater Medical Center
+B,370100,Choctaw Memorial Hospital,370014,0.78,AllianceHealth Durant
+B,370100,Choctaw Memorial Hospital,450196,7.21,Paris Regional Health
+B,370112,Northeastern Health System Sequoyah,040055,8.75,Baptist Health - Fort Smith
+B,370112,Northeastern Health System Sequoyah,370025,1.24,Saint Francis Hospital Muskogee
+B,370112,Northeastern Health System Sequoyah,370089,1.38,Northeastern Health System
+B,370113,INTEGRIS Grove Hospital,040001,2.86,Siloam Springs Regional Hospital
+B,370113,INTEGRIS Grove Hospital,260001,0.59,Mercy Hospital Joplin
+B,370113,INTEGRIS Grove Hospital,370237,13.3,"Saint Francis Hospital Vinita, Inc"
+B,370166,Wagoner Community Hospital,370025,6.32,Saint Francis Hospital Muskogee
+B,370166,Wagoner Community Hospital,370089,0.6,Northeastern Health System
+B,370166,Wagoner Community Hospital,370235,0.81,Ascension St. John Broken Arrow
+B,370183,Hillcrest Hospital Henryetta,370025,3.26,Saint Francis Hospital Muskogee
+B,370183,Hillcrest Hospital Henryetta,370218,3.7,"Saint Francis Hospital South, LLC"
+B,370183,Hillcrest Hospital Henryetta,370229,2.92,AllianceHealth Seminole
+B,371306,Mercy Health Love County,370247,5.79,Exceptional Community Hospital Ardmore
+B,371306,Mercy Health Love County,450090,1.59,North Texas Medical Center
+B,371329,Fairview Regional Medical Center Authority,370016,2.12,INTEGRIS Health Enid Hospital
+B,371337,Eastern Oklahoma Medical Center,040055,10.84,Baptist Health - Fort Smith
+B,371338,Harmon Memorial Hospital,450369,3.53,Childress Regional Medical Center

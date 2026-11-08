@@ -1,0 +1,52 @@
+state,name,rural_hospitals,loss_3plus,meets_rule,share_meeting
+NM,New Mexico,30,3,2,6.7
+SD,South Dakota,51,6,1,2.0
+CA,California,64,13,12,18.8
+KY,Kentucky,77,6,6,7.8
+AL,Alabama,51,18,5,9.8
+GA,Georgia,74,10,2,2.7
+AR,Arkansas,60,15,4,6.7
+PA,Pennsylvania,54,10,5,9.3
+MO,Missouri,61,17,5,8.2
+CO,Colorado,43,5,2,4.7
+UT,Utah,22,2,0,0.0
+OK,Oklahoma,79,31,20,25.3
+TN,Tennessee,54,22,12,22.2
+WY,Wyoming,25,8,1,4.0
+IN,Indiana,54,12,11,20.4
+MA,Massachusetts,7,2,1,14.3
+ID,Idaho,29,2,0,0.0
+AK,Alaska,16,1,1,6.2
+NV,Nevada,14,1,1,7.1
+IL,Illinois,84,13,10,11.9
+VT,Vermont,13,2,1,7.7
+MN,Minnesota,96,22,9,9.4
+ND,North Dakota,38,7,0,0.0
+IA,Iowa,96,8,4,4.2
+NH,New Hampshire,18,3,0,0.0
+DE,Delaware,3,0,0,0.0
+DC,District of Columbia,0,0,0,
+CT,Connecticut,4,2,1,25.0
+MT,Montana,55,13,6,10.9
+AZ,Arizona,26,0,0,0.0
+NE,Nebraska,73,8,0,0.0
+WA,Washington,45,9,7,15.6
+TX,Texas,168,31,3,1.8
+OH,Ohio,77,7,4,5.2
+WI,Wisconsin,81,9,1,1.2
+OR,Oregon,35,9,9,25.7
+MS,Mississippi,80,22,5,6.2
+NC,North Carolina,58,13,5,8.6
+VA,Virginia,29,9,8,27.6
+WV,West Virginia,33,7,5,15.2
+LA,Louisiana,61,12,12,19.7
+NY,New York,56,16,13,23.2
+MI,Michigan,68,8,6,8.8
+KS,Kansas,112,37,3,2.7
+FL,Florida,24,4,1,4.2
+NJ,New Jersey,2,0,0,0.0
+MD,Maryland,8,0,0,0.0
+SC,South Carolina,22,5,1,4.5
+ME,Maine,26,6,5,19.2
+HI,Hawaii,14,4,2,14.3
+RI,Rhode Island,1,1,0,0.0

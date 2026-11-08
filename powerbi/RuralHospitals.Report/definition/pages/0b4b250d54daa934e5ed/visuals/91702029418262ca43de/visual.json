@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "91702029418262ca43de",
+  "position": {
+    "x": 40,
+    "y": 1020,
+    "z": 99,
+    "height": 48,
+    "width": 1840,
+    "tabOrder": 99
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "CMS Hospital Provider Cost Report FY2021-24 and Provider of Services file Q3 2026; HHS hospital capacity by facility (May 2023 to April 2024); U.S. Census Bureau ACS 2020-24, block groups, TIGER/Line 2024 roads. All public domain. A scenario, not a forecast. Drive times by Plotlay on TIGER/Line roads. Made with Plotlay (getplotlay.com).",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#5b6573",
+                      "fontFamily": "Segoe UI"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

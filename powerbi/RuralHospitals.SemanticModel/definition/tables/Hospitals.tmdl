@@ -1,0 +1,199 @@
+table Hospitals
+	lineageTag: 2bc84779-6054-c051-667e-e4170b25ae41
+
+	/// Oklahoma rural hospitals that meet the risk rule (closed in the scenario)
+	measure 'Meet the rule' = CALCULATE ( COUNTROWS ( Hospitals ), LEFT ( Hospitals[in_scenario], 5 ) = "Meets" )
+		formatString: #,0
+		lineageTag: 7f26f398-5d09-b8c2-07d7-b4a1f6b875c7
+
+	measure 'Beds of those meeting the rule' = CALCULATE ( SUM ( Hospitals[beds] ), LEFT ( Hospitals[in_scenario], 5 ) = "Meets" )
+		formatString: #,0
+		lineageTag: 2a57ec2e-c8ac-484c-b89e-e699c1e20bdc
+
+	/// Average patients a day, May 2023 to April 2024
+	measure 'Patients of those meeting the rule' = CALCULATE ( SUM ( Hospitals[patients] ), LEFT ( Hospitals[in_scenario], 5 ) = "Meets" )
+		formatString: #,0
+		lineageTag: e0e2218d-f096-d513-cc79-895e183acd1a
+
+	/// Patients over beds for the hospitals in the filter
+	measure 'In use today' = DIVIDE ( SUM ( Hospitals[patients] ), SUM ( Hospitals[beds] ) )
+		formatString: 0%
+		lineageTag: 15290341-3d25-4c64-e11e-7c2fdda2ca47
+
+	/// Variant A: patients to the nearest hospital
+	measure 'In use if they closed' = DIVIDE ( SUM ( Hospitals[patients] ) + SUM ( Hospitals[added_patients] ), SUM ( Hospitals[beds] ) )
+		formatString: 0%
+		lineageTag: 29f69f43-b0d3-401c-cfe7-caaebeb50952
+
+	/// Variant B: patients to the nearest short-term general hospital
+	measure 'In use, to a general hospital' = DIVIDE ( SUM ( Hospitals[patients] ) + SUM ( Hospitals[added_patients_b] ), SUM ( Hospitals[beds] ) )
+		formatString: 0%
+		lineageTag: a10b97f9-ab94-0f0d-fa82-3c8ed61bde4b
+
+	/// Variant A, only for hospitals taking 5 or more patients a day
+	measure 'In use if they closed, taking 5 or more' = IF ( SUM ( Hospitals[added_patients] ) >= 5, [In use if they closed] )
+		formatString: 0%
+		lineageTag: 61880f8d-3171-8f5a-183b-31f920a3ac68
+
+	/// Hospitals taking patients in variant A that would be 85% full or more
+	measure 'Receiving 85% or more' = COUNTROWS ( FILTER ( Hospitals, Hospitals[added_patients] > 0.5 && NOT ISBLANK ( Hospitals[occupancy_today] ) && Hospitals[occupancy_scenario] >= 85 ) )
+		formatString: #,0
+		lineageTag: 8fb956cc-fb0b-1763-d890-45a73c2bcbe1
+
+	column ccn
+		dataType: string
+		lineageTag: 795931d4-6217-1a2c-1d2f-6dbfdad0889e
+		summarizeBy: none
+		sourceColumn: ccn
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 63e4b06b-673d-4466-0894-15b574c70c9f
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column town
+		dataType: string
+		lineageTag: c938488a-5449-cec0-06ba-2f2199ec371c
+		summarizeBy: none
+		sourceColumn: town
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: 4f06e06c-3f05-2c07-551e-0866e60f4918
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column type
+		dataType: string
+		lineageTag: c011e203-3ae4-6de8-6856-22ffa319bde2
+		summarizeBy: none
+		sourceColumn: type
+
+		annotation SummarizationSetBy = Automatic
+
+	column rural
+		dataType: string
+		lineageTag: d73b81b9-57b3-714f-408d-519147f1b720
+		summarizeBy: none
+		sourceColumn: rural
+
+		annotation SummarizationSetBy = Automatic
+
+	column in_scenario
+		dataType: string
+		lineageTag: d719520e-5719-b37c-c2dd-d96ea0d24f5b
+		summarizeBy: none
+		sourceColumn: in_scenario
+
+		annotation SummarizationSetBy = Automatic
+
+	column beds
+		dataType: double
+		formatString: #,0
+		lineageTag: adfda63c-4231-923a-b849-5fb921388cd6
+		summarizeBy: none
+		sourceColumn: beds
+
+		annotation SummarizationSetBy = Automatic
+
+	column patients
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 9a717686-8b94-25c4-4d7c-3584b80f4093
+		summarizeBy: none
+		sourceColumn: patients
+
+		annotation SummarizationSetBy = Automatic
+
+	column beds_source
+		dataType: string
+		lineageTag: ff701fc9-c726-ab87-006f-ecc667782c61
+		summarizeBy: none
+		sourceColumn: beds_source
+
+		annotation SummarizationSetBy = Automatic
+
+	column occupancy_today
+		dataType: double
+		formatString: 0
+		lineageTag: 3d2c1c06-cae3-0aac-5afa-5f5b5c1fb933
+		summarizeBy: none
+		sourceColumn: occupancy_today
+
+		annotation SummarizationSetBy = Automatic
+
+	column added_patients
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 3920322b-6669-71f0-8601-226907fde568
+		summarizeBy: none
+		sourceColumn: added_patients
+
+		annotation SummarizationSetBy = Automatic
+
+	column occupancy_scenario
+		dataType: double
+		formatString: 0
+		lineageTag: 597ed51c-6766-c7ae-4212-064f07684202
+		summarizeBy: none
+		sourceColumn: occupancy_scenario
+
+		annotation SummarizationSetBy = Automatic
+
+	column added_patients_b
+		dataType: double
+		formatString: #,0.0
+		lineageTag: d76d9acd-7ee4-0802-ab7c-3ca214358bab
+		summarizeBy: none
+		sourceColumn: added_patients_b
+
+		annotation SummarizationSetBy = Automatic
+
+	column occupancy_scenario_b
+		dataType: double
+		formatString: 0
+		lineageTag: 9194da93-20e8-3cdc-8bd5-835aee45cadc
+		summarizeBy: none
+		sourceColumn: occupancy_scenario_b
+
+		annotation SummarizationSetBy = Automatic
+
+	column loss_years
+		dataType: double
+		formatString: 0
+		lineageTag: 9ff4a546-52f6-116c-9ef9-966b0f4e800c
+		summarizeBy: none
+		sourceColumn: loss_years
+
+		annotation SummarizationSetBy = Automatic
+
+	column medicaid_share
+		dataType: double
+		formatString: 0.0
+		lineageTag: 41e58785-8b2e-a141-9a26-d352aebe6d3b
+		summarizeBy: none
+		sourceColumn: medicaid_share
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Hospitals = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("tables/hospitals.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"ccn", "name", "town", "state", "type", "rural", "in_scenario", "beds", "patients", "beds_source", "occupancy_today", "added_patients", "occupancy_scenario", "added_patients_b", "occupancy_scenario_b", "loss_years", "medicaid_share"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"ccn", type text}, {"name", type text}, {"town", type text}, {"state", type text}, {"type", type text}, {"rural", type text}, {"in_scenario", type text}, {"beds", type number}, {"patients", type number}, {"beds_source", type text}, {"occupancy_today", type number}, {"added_patients", type number}, {"occupancy_scenario", type number}, {"added_patients_b", type number}, {"occupancy_scenario_b", type number}, {"loss_years", type number}, {"medicaid_share", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

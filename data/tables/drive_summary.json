@@ -1,0 +1,149 @@
+{
+ "network": {
+  "nodes": 4200726,
+  "edges": 6224539,
+  "km": 850720,
+  "source": "tiger"
+ },
+ "speeds_kmh": {
+  "S1100": 105,
+  "S1200": 80,
+  "S1400": 45,
+  "S1630": 60,
+  "S1640": 50
+ },
+ "access_kmh": 20,
+ "snap_m": 5000,
+ "without": [
+  "370002",
+  "370004",
+  "370019",
+  "370022",
+  "370034",
+  "370083",
+  "370099",
+  "370100",
+  "370112",
+  "370113",
+  "370166",
+  "370183",
+  "371306",
+  "371329",
+  "371337",
+  "371338"
+ ],
+ "today": {
+  "targets": 3374,
+  "reached": 3374,
+  "not_reached": [],
+  "mean_min": 10.7,
+  "median_min": 7.4,
+  "max_min": 64.6,
+  "weight_total": 4028634,
+  "weight_reached": 4028634,
+  "weighted_mean_min": 10.7,
+  "over": [
+   {
+    "minutes": 15,
+    "targets": 828,
+    "weight": 952547,
+    "share": 0.236
+   },
+   {
+    "minutes": 30,
+    "targets": 139,
+    "weight": 135898,
+    "share": 0.034
+   },
+   {
+    "minutes": 45,
+    "targets": 13,
+    "weight": 11902,
+    "share": 0.003
+   },
+   {
+    "minutes": 60,
+    "targets": 2,
+    "weight": 2894,
+    "share": 0.001
+   }
+  ],
+  "not_placed": []
+ },
+ "scenario": {
+  "targets": 3374,
+  "reached": 3374,
+  "not_reached": [],
+  "mean_min": 13,
+  "median_min": 8.1,
+  "max_min": 99,
+  "weight_total": 4028634,
+  "weight_reached": 4028634,
+  "weighted_mean_min": 12.8,
+  "over": [
+   {
+    "minutes": 15,
+    "targets": 1010,
+    "weight": 1148398,
+    "share": 0.285
+   },
+   {
+    "minutes": 30,
+    "targets": 341,
+    "weight": 351577,
+    "share": 0.087
+   },
+   {
+    "minutes": 45,
+    "targets": 89,
+    "weight": 91235,
+    "share": 0.023
+   },
+   {
+    "minutes": 60,
+    "targets": 17,
+    "weight": 16978,
+    "share": 0.004
+   }
+  ],
+  "not_placed": []
+ },
+ "scenario_b": {
+  "targets": 3374,
+  "reached": 3374,
+  "not_reached": [],
+  "mean_min": 17.5,
+  "median_min": 9.1,
+  "max_min": 128.8,
+  "weight_total": 4028634,
+  "weight_reached": 4028634,
+  "weighted_mean_min": 16.6,
+  "over": [
+   {
+    "minutes": 15,
+    "targets": 1229,
+    "weight": 1382211,
+    "share": 0.343
+   },
+   {
+    "minutes": 30,
+    "targets": 621,
+    "weight": 637224,
+    "share": 0.158
+   },
+   {
+    "minutes": 45,
+    "targets": 287,
+    "weight": 285233,
+    "share": 0.071
+   },
+   {
+    "minutes": 60,
+    "targets": 159,
+    "weight": 155428,
+    "share": 0.039
+   }
+  ],
+  "not_placed": []
+ }
+}

@@ -1,0 +1,3 @@
+relationship ee732e47-2258-bd2e-ef0e-6ebc4748e1cc
+	fromColumn: StateYears.state
+	toColumn: States.state
