@@ -57,13 +57,13 @@
         "sort": [
           {
             "field": {
-              "Measure": {
+              "Column": {
                 "Expression": {
                   "SourceRef": {
                     "Entity": "StateYears"
                   }
                 },
-                "Property": "Stopped inpatient care"
+                "Property": "yr"
               }
             },
             "direction": "Ascending"
