@@ -37,22 +37,17 @@
           "projections": [
             {
               "field": {
-                "Aggregation": {
+                "Measure": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "States"
-                        }
-                      },
-                      "Property": "meets_rule"
+                    "SourceRef": {
+                      "Entity": "States"
                     }
                   },
-                  "Function": 0
+                  "Property": "Rural hospitals meeting the rule"
                 }
               },
-              "queryRef": "Sum(States.meets_rule)",
-              "nativeQueryRef": "meets_rule",
+              "queryRef": "States.Rural hospitals meeting the rule",
+              "nativeQueryRef": "Rural hospitals meeting the rule",
               "displayName": "Hospitals"
             }
           ]
@@ -62,13 +57,13 @@
         "sort": [
           {
             "field": {
-              "Column": {
+              "Measure": {
                 "Expression": {
                   "SourceRef": {
                     "Entity": "States"
                   }
                 },
-                "Property": "meets_rule"
+                "Property": "Rural hospitals meeting the rule"
               }
             },
             "direction": "Descending"
@@ -216,7 +211,7 @@
                                 "Source": "s"
                               }
                             },
-                            "Property": "meets_rule"
+                            "Property": "Rural hospitals meeting the rule"
                           }
                         }
                       }

@@ -3,9 +3,9 @@
   "name": "d1126a153ecd90a7016d",
   "position": {
     "x": 1260,
-    "y": 110,
+    "y": 133,
     "z": 1,
-    "height": 900,
+    "height": 877,
     "width": 620,
     "tabOrder": 1
   },
@@ -37,22 +37,17 @@
           "projections": [
             {
               "field": {
-                "Aggregation": {
+                "Measure": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Counties"
-                        }
-                      },
-                      "Property": "mean_min_added"
+                    "SourceRef": {
+                      "Entity": "Counties"
                     }
                   },
-                  "Function": 1
+                  "Property": "Minutes added"
                 }
               },
-              "queryRef": "Avg(Counties.mean_min_added)",
-              "nativeQueryRef": "mean_min_added",
+              "queryRef": "Counties.Minutes added",
+              "nativeQueryRef": "Minutes added",
               "displayName": "Minutes added"
             }
           ]
@@ -62,13 +57,13 @@
         "sort": [
           {
             "field": {
-              "Column": {
+              "Measure": {
                 "Expression": {
                   "SourceRef": {
                     "Entity": "Counties"
                   }
                 },
-                "Property": "mean_min_added"
+                "Property": "Minutes added"
               }
             },
             "direction": "Descending"
@@ -216,7 +211,7 @@
                                 "Source": "s"
                               }
                             },
-                            "Property": "mean_min_added"
+                            "Property": "Minutes added"
                           }
                         }
                       }
