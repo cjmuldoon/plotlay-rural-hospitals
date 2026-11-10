@@ -23,12 +23,12 @@
                       "Entity": "BlockGroups"
                     }
                   },
-                  "Property": "geoid"
+                  "Property": "map_key"
                 }
               },
-              "queryRef": "BlockGroups.geoid",
-              "nativeQueryRef": "geoid",
-              "displayName": "GEOID"
+              "queryRef": "BlockGroups.map_key",
+              "nativeQueryRef": "map_key",
+              "displayName": "County and band"
             }
           ]
         },
@@ -36,23 +36,18 @@
           "projections": [
             {
               "field": {
-                "Aggregation": {
+                "Measure": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "BlockGroups"
-                        }
-                      },
-                      "Property": "minutes_scenario"
+                    "SourceRef": {
+                      "Entity": "BlockGroups"
                     }
                   },
-                  "Function": 1
+                  "Property": "Average drive if they closed"
                 }
               },
-              "queryRef": "Avg(BlockGroups.minutes_scenario)",
-              "nativeQueryRef": "minutes_scenario",
-              "displayName": "Minutes if they closed"
+              "queryRef": "BlockGroups.Average drive if they closed",
+              "nativeQueryRef": "Average drive if they closed",
+              "displayName": "Average drive if they closed"
             }
           ]
         },
@@ -68,55 +63,45 @@
                           "Entity": "BlockGroups"
                         }
                       },
-                      "Property": "population"
-                    }
-                  },
-                  "Function": 0
-                }
-              },
-              "queryRef": "Sum(BlockGroups.population)",
-              "nativeQueryRef": "population",
-              "displayName": "People"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "BlockGroups"
-                        }
-                      },
-                      "Property": "minutes_today"
-                    }
-                  },
-                  "Function": 1
-                }
-              },
-              "queryRef": "Avg(BlockGroups.minutes_today)",
-              "nativeQueryRef": "minutes_today",
-              "displayName": "Minutes today"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "BlockGroups"
-                        }
-                      },
-                      "Property": "nearest_scenario"
+                      "Property": "band_scenario"
                     }
                   },
                   "Function": 3
                 }
               },
-              "queryRef": "Min(BlockGroups.nearest_scenario)",
-              "nativeQueryRef": "nearest_scenario",
-              "displayName": "nearest_scenario"
+              "queryRef": "Min(BlockGroups.band_scenario)",
+              "nativeQueryRef": "band_scenario",
+              "displayName": "Drive if they closed"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BlockGroups"
+                    }
+                  },
+                  "Property": "People"
+                }
+              },
+              "queryRef": "BlockGroups.People",
+              "nativeQueryRef": "People",
+              "displayName": "People"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "BlockGroups"
+                    }
+                  },
+                  "Property": "Average drive today"
+                }
+              },
+              "queryRef": "BlockGroups.Average drive today",
+              "nativeQueryRef": "Average drive today",
+              "displayName": "Average drive today"
             }
           ]
         }
@@ -220,7 +205,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'blockgroups.topojson'"
+                      "Value": "'blockgroup_bands.topojson'"
                     }
                   }
                 },
@@ -229,7 +214,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "blockgroups.topojson"
+                      "ItemName": "blockgroup_bands.topojson"
                     }
                   }
                 }

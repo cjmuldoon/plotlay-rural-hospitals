@@ -144,6 +144,14 @@ table BlockGroups
 
 		annotation SummarizationSetBy = Automatic
 
+	column map_key
+		dataType: string
+		lineageTag: 73607672-ffe5-c854-8258-f85de8547c3c
+		summarizeBy: none
+		sourceColumn: map_key
+
+		annotation SummarizationSetBy = Automatic
+
 	partition BlockGroups = m
 		mode: import
 		source =
@@ -153,8 +161,9 @@ table BlockGroups
 				    Kept = Table.SelectColumns(Promoted, {"geoid", "population", "rural", "minutes_today", "minutes_scenario", "minutes_added", "band_today", "band_scenario", "change", "nearest_today", "nearest_scenario"}),
 				    Typed = Table.TransformColumnTypes(Kept, {{"geoid", type text}, {"population", Int64.Type}, {"rural", type text}, {"minutes_today", type number}, {"minutes_scenario", type number}, {"minutes_added", type number}, {"band_today", type text}, {"band_scenario", type text}, {"change", type text}, {"nearest_today", type text}, {"nearest_scenario", type text}}, "en-US"),
 				    Ordered = Table.AddColumn(Typed, "band_order", each List.PositionOf({"00 to 15 min", "15 to 30 min", "30 to 45 min", "45 to 60 min", "60 min or more"}, [band_scenario]), Int64.Type),
-				    Ordered2 = Table.AddColumn(Ordered, "band_today_order", each List.PositionOf({"00 to 15 min", "15 to 30 min", "30 to 45 min", "45 to 60 min", "60 min or more"}, [band_today]), Int64.Type)
+				    Ordered2 = Table.AddColumn(Ordered, "band_today_order", each List.PositionOf({"00 to 15 min", "15 to 30 min", "30 to 45 min", "45 to 60 min", "60 min or more"}, [band_today]), Int64.Type),
+				    Keyed = Table.AddColumn(Ordered2, "map_key", each Text.Start([geoid], 5) & " " & [band_scenario], type text)
 				in
-				    Ordered2
+				    Keyed
 
 	annotation PBI_ResultType = Table

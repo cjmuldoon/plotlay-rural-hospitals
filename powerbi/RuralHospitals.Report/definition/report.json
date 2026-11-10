@@ -42,8 +42,8 @@
           "type": "CustomTheme"
         },
         {
-          "name": "blockgroups.topojson",
-          "path": "blockgroups.topojson",
+          "name": "blockgroup_bands.topojson",
+          "path": "blockgroup_bands.topojson",
           "type": "ShapeMap"
         },
         {

@@ -32,7 +32,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Each Oklahoma block group, from its centre of population to the nearest hospital open to everyone, on TIGER/Line roads, if the 16 hospitals that meet the rule closed.",
+                    "value": "Oklahoma's block groups, each driven from its centre of population to the nearest hospital open to everyone on TIGER/Line roads, if the 16 hospitals that meet the rule closed. The map joins block groups of one county in the same 15-minute band.",
                     "textStyle": {
                       "fontSize": "11pt",
                       "color": "#5b6573",
