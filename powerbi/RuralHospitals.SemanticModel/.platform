@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "RuralHospitals"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "61b6aa1a-c6fb-439c-a9dd-1038503f4c67"
+  }
+}

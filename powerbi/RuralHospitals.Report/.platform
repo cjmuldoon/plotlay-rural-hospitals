@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "RuralHospitals"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0ac79639-3d19-4c2e-91a3-bcb9b2c2821b"
+  }
+}
